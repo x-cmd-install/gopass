@@ -5,18 +5,18 @@ about:
   head: e2dd748
   archived: false
   latestVersion: "v1.17.0"
-  collectedAt: 2026-09-07T04:53:27Z
+  collectedAt: 2026-09-07T19:33:12Z
 timeline:
   created: 2017-02-02
   lastCommit: 2026-09-02
   lastRelease: 2026-08-30
 popularity:
-  star: 7128
+  star: 7129
   watcher: 72
   fork: 559
   release: 101
   contributor: 240
-  pullRequest: 2216
+  pullRequest: 2217
   issue: 1320
 language:
   Go: 1818830
@@ -30,7 +30,7 @@ recent:
     since: 2026-08-08
     release: 2
     mergedPR: 51
-    openPR: 6
+    openPR: 7
     closedIssue: 2
     openIssue: 5
     commit: 56
@@ -38,7 +38,7 @@ recent:
     since: 2026-07-09
     release: 2
     mergedPR: 72
-    openPR: 7
+    openPR: 8
     closedIssue: 11
     openIssue: 5
     commit: 76
@@ -46,7 +46,7 @@ recent:
     since: 2026-06-09
     release: 2
     mergedPR: 81
-    openPR: 7
+    openPR: 8
     closedIssue: 15
     openIssue: 8
     commit: 84
@@ -54,7 +54,7 @@ recent:
     since: 2026-03-11
     release: 4
     mergedPR: 156
-    openPR: 9
+    openPR: 10
     closedIssue: 34
     openIssue: 16
     commit: 187
@@ -62,7 +62,7 @@ recent:
     since: 2025-09-12
     release: 8
     mergedPR: 245
-    openPR: 9
+    openPR: 10
     closedIssue: 56
     openIssue: 20
     commit: 269
@@ -70,20 +70,20 @@ recent:
     since: 2024-09-17
     release: 10
     mergedPR: 436
-    openPR: 9
+    openPR: 10
     closedIssue: 101
     openIssue: 29
     commit: 470
 total:
   release: 101
   mergedPR: 2003
-  openPR: 9
+  openPR: 10
   closedIssue: 1238
   openIssue: 82
   commit: 2324
 ---
 path: /home/runner/.x-repo/github.com/gopasspw/gopass
-collectedAt: 2026-09-07T04:53:31Z
+collectedAt: 2026-09-07T19:33:15Z
 loc:
   Go:
     code: 59068
@@ -246,7 +246,7 @@ checks:
       - 'Info: found contributions from: CoBUG, MiniMetalMaker, TNG, acb16zje, asciidoctor, beyondstorage, bibleref-french, cc-translators, ccfrance, chezmoi, cilium, docker-multiarch, drand, foonyew-ezj, golang, google, gopasspw, hercules-team, ioplane, isovalent, knoxite, kubernetes, kubernetes-monitoring, nextcloud, openlab-aux, owncast, parca-dev, polarsignals, prometheus, prometheus-operator, puppet-champions, pyrra-dev, red hat, reviewdog, techcultivation, tng, tomahawk-player, undefined, urfave, voxpupuli'
 ---
 eget:
-  collectedAt: 2026-09-07T04:53:32+00:00
+  collectedAt: 2026-09-07T19:33:16+00:00
   platform:
     darwin/arm64:
       name:  gopass-1.17.0-darwin-arm64.tar.gz
