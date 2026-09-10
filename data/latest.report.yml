@@ -2,97 +2,97 @@ about:
   description: "The slightly more awesome standard unix password manager for teams"
   license: MIT
   homepage: https://www.gopass.pw/
-  head: 511fa8f
+  head: 0d560cb
   archived: false
-  latestVersion: "v1.17.1"
-  latestRelease: "v1.17.1"
-  latestPrerelease: "v1.17.0-rc.3"
-  collectedAt: 2026-09-10T05:05:40Z
+  latestVersion: "v1.17.2"
+  latestRelease: "v1.17.2"
+  latestPrerelease: "v1.17.2-rc.0"
+  collectedAt: 2026-09-10T16:46:13Z
 timeline:
   created: 2017-02-02
-  lastCommit: 2026-09-09
-  lastVersion: 2026-09-09
-  lastRelease: 2026-09-09
-  lastPrerelease: 2026-08-21
+  lastCommit: 2026-09-10
+  lastVersion: 2026-09-10
+  lastRelease: 2026-09-10
+  lastPrerelease: 2026-09-10
 popularity:
   star: 7133
   watcher: 72
   fork: 558
-  release: 102
+  release: 104
   contributor: 241
-  pullRequest: 2223
+  pullRequest: 2226
   issue: 1323
 language:
-  Go: 1830650
+  Go: 1833178
   Shell: 169042
   Roff: 22032
   Makefile: 7468
   Dockerfile: 1960
-totalBytes: 2031152
+totalBytes: 2033680
 recent:
   last30d:
     since: 2026-08-11
-    release: 3
-    mergedPR: 57
+    release: 5
+    mergedPR: 59
     openPR: 5
-    closedIssue: 1
-    openIssue: 7
-    commit: 67
+    closedIssue: 2
+    openIssue: 6
+    commit: 73
   last60d:
     since: 2026-07-12
-    release: 3
-    mergedPR: 80
+    release: 5
+    mergedPR: 82
     openPR: 5
-    closedIssue: 11
-    openIssue: 7
-    commit: 87
+    closedIssue: 12
+    openIssue: 6
+    commit: 93
   last90d:
     since: 2026-06-12
-    release: 3
-    mergedPR: 90
+    release: 5
+    mergedPR: 92
     openPR: 5
-    closedIssue: 17
-    openIssue: 8
-    commit: 95
+    closedIssue: 18
+    openIssue: 7
+    commit: 101
   last180d:
     since: 2026-03-14
-    release: 5
-    mergedPR: 164
+    release: 7
+    mergedPR: 166
     openPR: 7
-    closedIssue: 36
-    openIssue: 17
-    commit: 198
+    closedIssue: 37
+    openIssue: 16
+    commit: 204
   last360d:
     since: 2025-09-15
-    release: 9
-    mergedPR: 249
+    release: 11
+    mergedPR: 251
     openPR: 7
-    closedIssue: 57
-    openIssue: 21
-    commit: 280
+    closedIssue: 58
+    openIssue: 20
+    commit: 286
   last720d:
     since: 2024-09-20
-    release: 11
-    mergedPR: 444
+    release: 13
+    mergedPR: 446
     openPR: 7
-    closedIssue: 103
-    openIssue: 30
-    commit: 481
+    closedIssue: 104
+    openIssue: 29
+    commit: 487
 total:
-  release: 102
-  mergedPR: 2012
+  release: 104
+  mergedPR: 2014
   openPR: 7
-  closedIssue: 1240
-  openIssue: 83
-  commit: 2335
+  closedIssue: 1241
+  openIssue: 82
+  commit: 2341
 ---
 path: /home/runner/.x-repo/github.com/gopasspw/gopass
-collectedAt: 2026-09-10T05:05:46Z
+collectedAt: 2026-09-10T16:46:24Z
 loc:
   Go:
-    code: 59358
-    comments: 5227
-    blanks: 12323
+    code: 59404
+    comments: 5243
+    blanks: 12336
     files: 589
   Svg:
     code: 494
@@ -111,8 +111,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 6360
-    blanks: 2343
+    comments: 6366
+    blanks: 2346
     files: 80
   Text:
     code: 0
@@ -120,20 +120,28 @@ loc:
     blanks: 0
     files: 4
 total:
-  code: 60853
-  comments: 11730
-  blanks: 14798
+  code: 60899
+  comments: 11752
+  blanks: 14814
   files: 676
 ---
-date: "2026-09-09T20:59:05Z"
+date: "2026-09-10T16:00:14Z"
 repo:
   name: github.com/gopasspw/gopass
-  commit: 511fa8f60ba3ac20672e4a88bd53bd7ec992b6fa
+  commit: 0d560cbbeeed174ebdd8a7ddcf794c542ec7ccdb
 scorecard:
   version: v5.5.0
   commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 8.7
 checks:
+  - name: Code-Review
+    score: 2
+    reason: Found 5/21 approved changesets -- score normalized to 2
+    details: null
+  - name: Maintained
+    score: 10
+    reason: 30 commit(s) and 22 issue activity found in the last 90 days -- score normalized to 10
+    details: null
   - name: Dependency-Update-Tool
     score: 10
     reason: update tool detected
@@ -147,13 +155,9 @@ checks:
       - 'Info: Found linked content: docs/security.md:1'
       - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: docs/security.md:1'
       - 'Info: Found text in security policy: docs/security.md:1'
-  - name: Code-Review
-    score: 2
-    reason: Found 5/18 approved changesets -- score normalized to 2
-    details: null
-  - name: Maintained
+  - name: Dangerous-Workflow
     score: 10
-    reason: 30 commit(s) and 22 issue activity found in the last 90 days -- score normalized to 10
+    reason: no dangerous workflow patterns detected
     details: null
   - name: Token-Permissions
     score: 10
@@ -172,10 +176,6 @@ checks:
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/grype.yml:12'
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/key-canary.yml:13'
       - 'Info: topLevel permissions set to ''read-all'': .github/workflows/scorecard.yml:18'
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
-    details: null
   - name: Binary-Artifacts
     score: 10
     reason: no binaries found in the repo
@@ -206,44 +206,44 @@ checks:
       - 'Warn: Project is vulnerable to: https://osv.dev/GO-2026-6354'
       - 'Warn: Project is vulnerable to: https://osv.dev/GO-2026-6355'
       - 'Warn: Project is vulnerable to: https://osv.dev/GO-2026-6222'
+  - name: SAST
+    score: 10
+    reason: SAST tool is run on all commits
+    details:
+      - 'Info: SAST configuration detected: CodeQL'
+      - 'Info: all commits (21) are checked with a SAST tool'
   - name: Signed-Releases
     score: 8
     reason: 5 out of the last 5 releases have a total of 5 signed artifacts.
     details:
+      - 'Info: signed release artifact: gopass_1.17.2_SHA256SUMS.sig: https://github.com/gopasspw/gopass/releases/tag/v1.17.2'
+      - 'Info: signed release artifact: gopass_1.17.2-rc.0_SHA256SUMS.sig: https://github.com/gopasspw/gopass/releases/tag/v1.17.2-rc.0'
       - 'Info: signed release artifact: gopass_1.17.1_SHA256SUMS.sigstore.json: https://github.com/gopasspw/gopass/releases/tag/v1.17.1'
       - 'Info: signed release artifact: gopass_1.17.0_SHA256SUMS.sigstore.json: https://github.com/gopasspw/gopass/releases/tag/v1.17.0'
       - 'Info: signed release artifact: gopass_1.17.0-rc.3_SHA256SUMS.sigstore.json: https://github.com/gopasspw/gopass/releases/tag/v1.17.0-rc.3'
-      - 'Info: signed release artifact: gopass_1.17.0-rc.2_SHA256SUMS.sigstore.json: https://github.com/gopasspw/gopass/releases/tag/v1.17.0-rc.2'
-      - 'Info: signed release artifact: gopass_1.17.0-rc.1_SHA256SUMS.sigstore.json: https://github.com/gopasspw/gopass/releases/tag/v1.17.0-rc.1'
+      - 'Warn: release artifact v1.17.2 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/386374174'
+      - 'Warn: release artifact v1.17.2-rc.0 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/386056644'
       - 'Warn: release artifact v1.17.1 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/385815203'
       - 'Warn: release artifact v1.17.0 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/379299108'
       - 'Warn: release artifact v1.17.0-rc.3 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/374004964'
-      - 'Warn: release artifact v1.17.0-rc.2 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/335544702'
-      - 'Warn: release artifact v1.17.0-rc.1 does not have provenance: https://api.github.com/repos/gopasspw/gopass/releases/323857779'
+  - name: Packaging
+    score: 10
+    reason: packaging workflow detected
+    details:
+      - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/autorelease.yml:17'
+  - name: Branch-Protection
+    score: -1
+    reason: 'internal error: error during branchesHandler.setup: internal error: some github tokens can''t read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md'
+    details: null
   - name: Fuzzing
     score: 10
     reason: project is fuzzed
     details:
       - 'Info: GoBuiltInFuzzer integration found: pkg/gopass/secrets/akv_test.go:451'
       - 'Info: GoBuiltInFuzzer integration found: pkg/gopass/secrets/secparse/parse_test.go:43'
-  - name: Branch-Protection
-    score: -1
-    reason: 'internal error: error during branchesHandler.setup: internal error: some github tokens can''t read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md'
-    details: null
-  - name: Packaging
-    score: 10
-    reason: packaging workflow detected
-    details:
-      - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/autorelease.yml:17'
-  - name: SAST
-    score: 10
-    reason: SAST tool is run on all commits
-    details:
-      - 'Info: SAST configuration detected: CodeQL'
-      - 'Info: all commits (25) are checked with a SAST tool'
   - name: CI-Tests
     score: 10
-    reason: 25 out of 25 merged PRs checked by a CI test -- score normalized to 10
+    reason: 21 out of 21 merged PRs checked by a CI test -- score normalized to 10
     details: null
   - name: Contributors
     score: 10
@@ -251,4 +251,4 @@ checks:
     details:
       - 'Info: found contributions from: CoBUG, MiniMetalMaker, TNG, acb16zje, asciidoctor, beyondstorage, bibleref-french, cc-translators, ccfrance, chezmoi, cilium, docker-multiarch, drand, foonyew-ezj, golang, google, gopasspw, hercules-team, ioplane, isovalent, knoxite, kubernetes, kubernetes-monitoring, nextcloud, openlab-aux, owncast, parca-dev, polarsignals, prometheus, prometheus-operator, puppet-champions, pyrra-dev, red hat, reviewdog, techcultivation, tng, tomahawk-player, undefined, urfave, voxpupuli'
 ---
-{"id":385815203,"author":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBM-8gs4W_xKj","tag_name":"v1.17.1","target_commitish":"master","name":"v1.17.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-09T20:45:10Z","updated_at":"2026-09-09T20:57:35Z","published_at":"2026-09-09T20:57:35Z","assets":[{"id":553494361,"node_id":"RA_kwDOBM-8gs4g_adZ","name":"gopass-1.17.1-darwin-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7554818,"digest":"sha256:d6577cd5db130cc7d1a0452d90cfe2f1e673e6c80180a5aceac0ccab3a386678","download_count":7,"created_at":"2026-09-09T20:13:54Z","updated_at":"2026-09-09T20:13:55Z"},{"id":553494527,"node_id":"RA_kwDOBM-8gs4g_af_","name":"gopass-1.17.1-darwin-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":118104,"digest":"sha256:6128873008b0f3a79b0658a6dc3f964163de4a2cf9b9fa989f0cf485ee0f10a3","download_count":3,"created_at":"2026-09-09T20:14:00Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494286,"node_id":"RA_kwDOBM-8gs4g_acO","name":"gopass-1.17.1-darwin-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":6995838,"digest":"sha256:30e20c1d55d69b3cee0a7fecb38181334d0f5f80643e93b06b905dce62bb9ec2","download_count":7,"created_at":"2026-09-09T20:13:51Z","updated_at":"2026-09-09T20:13:52Z"},{"id":553494471,"node_id":"RA_kwDOBM-8gs4g_afH","name":"gopass-1.17.1-darwin-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":118104,"digest":"sha256:78d0e579fb4873e3cea7607890a35ba0440d208cd2bc98ede719e37203b6cd7f","download_count":3,"created_at":"2026-09-09T20:13:58Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494374,"node_id":"RA_kwDOBM-8gs4g_adm","name":"gopass-1.17.1-freebsd-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7925724,"digest":"sha256:f819e8fb6a54e51eb3c984d4083f5893017be627bb324cc7641c6ee5bbc5fdc9","download_count":4,"created_at":"2026-09-09T20:13:55Z","updated_at":"2026-09-09T20:13:55Z"},{"id":553494534,"node_id":"RA_kwDOBM-8gs4g_agG","name":"gopass-1.17.1-freebsd-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:e5e6162d765cd236c7b795d9c11bed7b9acdcb744e89b0863a3a041825ce8f56","download_count":3,"created_at":"2026-09-09T20:14:01Z","updated_at":"2026-09-09T20:14:01Z"},{"id":553494324,"node_id":"RA_kwDOBM-8gs4g_ac0","name":"gopass-1.17.1-freebsd-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7185468,"digest":"sha256:91deede3e1431895ee0ac475215036f7d6326133cca6778ae2d0b648ac62d413","download_count":4,"created_at":"2026-09-09T20:13:53Z","updated_at":"2026-09-09T20:13:53Z"},{"id":553494514,"node_id":"RA_kwDOBM-8gs4g_afy","name":"gopass-1.17.1-freebsd-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:c2425363b291d3aee67d7c08b1908a0b2da0781110120365314fd2d10e47d2b7","download_count":3,"created_at":"2026-09-09T20:14:00Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494312,"node_id":"RA_kwDOBM-8gs4g_aco","name":"gopass-1.17.1-freebsd-armv6.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7526099,"digest":"sha256:f6bcb104b8dcd058e17e607626a3ca92350cfbc99eaa3b9a2cfbf29defb0504b","download_count":4,"created_at":"2026-09-09T20:13:52Z","updated_at":"2026-09-09T20:13:53Z"},{"id":553494491,"node_id":"RA_kwDOBM-8gs4g_afb","name":"gopass-1.17.1-freebsd-armv6.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:71f9d87bac8df507c946b867bf5a5b81d17e45802f4efdd1162ad034237edcff","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:13:59Z"},{"id":553494284,"node_id":"RA_kwDOBM-8gs4g_acM","name":"gopass-1.17.1-freebsd-armv7.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7519601,"digest":"sha256:f292562506118324bdf2f21c9d4eeac287dde32ef56dcd83da89e45e20674bb8","download_count":4,"created_at":"2026-09-09T20:13:51Z","updated_at":"2026-09-09T20:13:52Z"},{"id":553494464,"node_id":"RA_kwDOBM-8gs4g_afA","name":"gopass-1.17.1-freebsd-armv7.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:c629c880e8fcdc92153d8c63f981932752834d9dbd435a33c9a99fa60c556652","download_count":3,"created_at":"2026-09-09T20:13:58Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494289,"node_id":"RA_kwDOBM-8gs4g_acR","name":"gopass-1.17.1-linux-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":8144596,"digest":"sha256:0e6e531097ffacf341e3c314cdaa3f8701348d60bb1bb1f01b96d9160e563f44","download_count":19,"created_at":"2026-09-09T20:13:51Z","updated_at":"2026-09-09T20:13:52Z"},{"id":553494489,"node_id":"RA_kwDOBM-8gs4g_afZ","name":"gopass-1.17.1-linux-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:1796c65b0f546fa98508d5e3af55afe424fa525e2c4552a9c0878780075b5411","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:13:59Z"},{"id":553494346,"node_id":"RA_kwDOBM-8gs4g_adK","name":"gopass-1.17.1-linux-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7388373,"digest":"sha256:93e59207adb57a529a523d0612b75a8f42555afc741fe9b9fd9629d59e1c1910","download_count":9,"created_at":"2026-09-09T20:13:53Z","updated_at":"2026-09-09T20:13:54Z"},{"id":553494526,"node_id":"RA_kwDOBM-8gs4g_af-","name":"gopass-1.17.1-linux-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:35f3070d7ae02f2c08bfebbf2cbbbc2cca68874f9d98a7720876e771fceb32ca","download_count":3,"created_at":"2026-09-09T20:14:00Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494370,"node_id":"RA_kwDOBM-8gs4g_adi","name":"gopass-1.17.1-linux-armv6.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7728464,"digest":"sha256:0eb664eeb78919531e65efc8b4d21774eb8d2335b41c983f496ff06ed4473066","download_count":4,"created_at":"2026-09-09T20:13:55Z","updated_at":"2026-09-09T20:13:55Z"},{"id":553494528,"node_id":"RA_kwDOBM-8gs4g_agA","name":"gopass-1.17.1-linux-armv6.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:75741095f6bbc82dd6bb2bd4677717462d17116cdaa7449409cd98d434a0b278","download_count":3,"created_at":"2026-09-09T20:14:00Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494344,"node_id":"RA_kwDOBM-8gs4g_adI","name":"gopass-1.17.1-linux-armv7.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7718106,"digest":"sha256:6759d06342af1eea24856341d99dd7c0a43329601d75375280cf75f3f2d66989","download_count":5,"created_at":"2026-09-09T20:13:53Z","updated_at":"2026-09-09T20:13:54Z"},{"id":553494509,"node_id":"RA_kwDOBM-8gs4g_aft","name":"gopass-1.17.1-linux-armv7.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:cb3f6eb9380dae99977de6bbdc49d21276e16fa269582acd0265559dc08c545c","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494311,"node_id":"RA_kwDOBM-8gs4g_acn","name":"gopass-1.17.1-openbsd-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7475325,"digest":"sha256:0db0ca2e0196fcac09c9fbf3ae42a672b5b5e8ff2f2500d511fbe71778eaf474","download_count":4,"created_at":"2026-09-09T20:13:52Z","updated_at":"2026-09-09T20:13:53Z"},{"id":553494488,"node_id":"RA_kwDOBM-8gs4g_afY","name":"gopass-1.17.1-openbsd-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:5fb477a793d47527493ef230deb47501e8b6c03ec5be133be2a8686a28f3e1b4","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:13:59Z"},{"id":553494290,"node_id":"RA_kwDOBM-8gs4g_acS","name":"gopass-1.17.1-openbsd-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":6743189,"digest":"sha256:def5711d1b8055390a5997aaff905222030f9e4fd8e57a5010f086a3eb1b7929","download_count":4,"created_at":"2026-09-09T20:13:51Z","updated_at":"2026-09-09T20:13:52Z"},{"id":553494486,"node_id":"RA_kwDOBM-8gs4g_afW","name":"gopass-1.17.1-openbsd-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:cf4a5ba609aad6b74b48d8c00cbfbd14c39273dd084a7cc55091e7e9fef36d40","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:13:59Z"},{"id":553494345,"node_id":"RA_kwDOBM-8gs4g_adJ","name":"gopass-1.17.1-openbsd-armv6.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7080524,"digest":"sha256:ed665d8d35ee12e00b1d3c96ce01f57b16d4aae542a265ef239cc1af9c6e519e","download_count":4,"created_at":"2026-09-09T20:13:53Z","updated_at":"2026-09-09T20:13:54Z"},{"id":553494508,"node_id":"RA_kwDOBM-8gs4g_afs","name":"gopass-1.17.1-openbsd-armv6.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:e19665431e5e2ab8a86a26e31f64a80004046c3c558a9ac9de34741bbdf03006","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494380,"node_id":"RA_kwDOBM-8gs4g_ads","name":"gopass-1.17.1-openbsd-armv7.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7069800,"digest":"sha256:8fcc343b24eb0c8ed926cf60d044536c4494f25df7560d63c324972cb12b305d","download_count":4,"created_at":"2026-09-09T20:13:55Z","updated_at":"2026-09-09T20:13:55Z"},{"id":553494535,"node_id":"RA_kwDOBM-8gs4g_agH","name":"gopass-1.17.1-openbsd-armv7.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:98edbcf2fe3a6c0729d8e66edf0c4fc5bd8e5cdf4f437c889bac4c3f720c1e05","download_count":3,"created_at":"2026-09-09T20:14:01Z","updated_at":"2026-09-09T20:14:01Z"},{"id":553494349,"node_id":"RA_kwDOBM-8gs4g_adN","name":"gopass-1.17.1-windows-amd64.zip","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":8079197,"digest":"sha256:6a07bc25d313d3a5fa836a414b93f20591fbf86c394cd6436ee0cc0c27f5c59e","download_count":14,"created_at":"2026-09-09T20:13:54Z","updated_at":"2026-09-09T20:13:54Z"},{"id":553494525,"node_id":"RA_kwDOBM-8gs4g_af9","name":"gopass-1.17.1-windows-amd64.zip.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125840,"digest":"sha256:5b65086428faed5fd0ac1126fe777db7dbcc2fb637194978a776e5a511d26b69","download_count":3,"created_at":"2026-09-09T20:14:00Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494319,"node_id":"RA_kwDOBM-8gs4g_acv","name":"gopass-1.17.1-windows-arm64.zip","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":7225935,"digest":"sha256:a6ba7d13149024b306b71f515a55fa77289ca04d5d7b9e2ab55b988abd8aab25","download_count":7,"created_at":"2026-09-09T20:13:52Z","updated_at":"2026-09-09T20:13:53Z"},{"id":553494506,"node_id":"RA_kwDOBM-8gs4g_afq","name":"gopass-1.17.1-windows-arm64.zip.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125840,"digest":"sha256:356d30735015a4e370b942e5617a550e2658c18e8953354c4ebca25107439db1","download_count":3,"created_at":"2026-09-09T20:13:59Z","updated_at":"2026-09-09T20:14:00Z"},{"id":553494401,"node_id":"RA_kwDOBM-8gs4g_aeB","name":"gopass-1.17.1.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":3152865,"digest":"sha256:7b88c56fb021007926a8872ab5a5a9ea7ddfb6d0926eddc022c5e6e410908f56","download_count":33,"created_at":"2026-09-09T20:13:56Z","updated_at":"2026-09-09T20:13:56Z"},{"id":553494470,"node_id":"RA_kwDOBM-8gs4g_afG","name":"gopass-1.17.1.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":254023,"digest":"sha256:5d5920e586682cc5b7bb11840002a13608e2e4517eb8f2c670230c6d4d142efe","download_count":3,"created_at":"2026-09-09T20:13:58Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494425,"node_id":"RA_kwDOBM-8gs4g_aeZ","name":"gopass_1.17.1_linux_amd64.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":8145358,"digest":"sha256:e2d2899371233d9a39b2c4d62dade3ebcdf4fd2a3e4705522a63bf69f8772d92","download_count":8,"created_at":"2026-09-09T20:13:56Z","updated_at":"2026-09-09T20:13:57Z"},{"id":553494453,"node_id":"RA_kwDOBM-8gs4g_ae1","name":"gopass_1.17.1_linux_amd64.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":8147687,"digest":"sha256:624fe5850593d3f2786461d4ea5e27a06094018d7d53fd1c0ea327c329c8dc86","download_count":7,"created_at":"2026-09-09T20:13:58Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494412,"node_id":"RA_kwDOBM-8gs4g_aeM","name":"gopass_1.17.1_linux_arm64.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":7388000,"digest":"sha256:46324f54e0eddabb9134e12151f0d46bc72e9c971a4679267b12e0b99fd2a793","download_count":4,"created_at":"2026-09-09T20:13:56Z","updated_at":"2026-09-09T20:13:57Z"},{"id":553494441,"node_id":"RA_kwDOBM-8gs4g_aep","name":"gopass_1.17.1_linux_arm64.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":7391235,"digest":"sha256:6e212defebd9a5c4b3ea6dbd4e63c6cdccd2293d6a93764812c03912d6201d62","download_count":4,"created_at":"2026-09-09T20:13:57Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494410,"node_id":"RA_kwDOBM-8gs4g_aeK","name":"gopass_1.17.1_linux_armv6.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":7734110,"digest":"sha256:a95b60f556b721e37938f4a174ecf19d4b1ff3f180118dc1a1a07441ad35c2bf","download_count":4,"created_at":"2026-09-09T20:13:56Z","updated_at":"2026-09-09T20:13:56Z"},{"id":553494435,"node_id":"RA_kwDOBM-8gs4g_aej","name":"gopass_1.17.1_linux_armv6.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":7738683,"digest":"sha256:b50eed4ba86cbca61ad4023fcab767b40df51784a51b7470618e52edb168f702","download_count":4,"created_at":"2026-09-09T20:13:57Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494409,"node_id":"RA_kwDOBM-8gs4g_aeJ","name":"gopass_1.17.1_linux_armv7.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":7719116,"digest":"sha256:2ba0c72aa0129c15e9cd3487ba0ee80642a06426c016dbac49dc3b12ba14e993","download_count":4,"created_at":"2026-09-09T20:13:56Z","updated_at":"2026-09-09T20:13:56Z"},{"id":553494436,"node_id":"RA_kwDOBM-8gs4g_aek","name":"gopass_1.17.1_linux_armv7.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":7727810,"digest":"sha256:32f7b2a85e5aece786d7b0495fb5f39335923a0f3087f2af711351d0703a52fc","download_count":4,"created_at":"2026-09-09T20:13:57Z","updated_at":"2026-09-09T20:13:58Z"},{"id":553494536,"node_id":"RA_kwDOBM-8gs4g_agI","name":"gopass_1.17.1_SHA256SUMS","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4312,"digest":"sha256:59ecc3e15d9458f8ec8fbbfb6c98013187249ed2cbfe2e82007fa1e113e5f051","download_count":38,"created_at":"2026-09-09T20:14:01Z","updated_at":"2026-09-09T20:14:01Z"},{"id":553494546,"node_id":"RA_kwDOBM-8gs4g_agS","name":"gopass_1.17.1_SHA256SUMS.sigstore.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":10171,"digest":"sha256:d45941fdc54c371e5d8b4e431ebfe4b48162863d688063c0b2d916a1bf6a4309","download_count":3,"created_at":"2026-09-09T20:14:01Z","updated_at":"2026-09-09T20:14:01Z"}],"body":"## [1.17.1] - 2026-09-09\r\n\r\n### Added\r\n\r\n- api: Add new AuditList method (#3594)\r\n- create: support passwordless / SSO login profiles (#3493)\r\n\r\n### Fixed\r\n\r\n- ctxutil: restore password callback hook for embedded age prompts (#3590)\r\n- store: Fix reencrypt when adding recipients (#3595) (#3473)\r\n\r\n\r\n","reactions":{"total_count":1,"+1":1,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0}}
+{"id":386374174,"author":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBM-8gs4XB5oe","tag_name":"v1.17.2","target_commitish":"master","name":"v1.17.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-10T14:41:07Z","updated_at":"2026-09-10T14:50:04Z","published_at":"2026-09-10T14:49:58Z","assets":[{"id":555209054,"node_id":"RA_kwDOBM-8gs4hF9Fe","name":"gopass-1.17.2-darwin-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7554902,"digest":"sha256:9ff90e8fe1dd4fd135f8031065b2a6d309f81196ed9b9285f01d4b020407ecab","download_count":2,"created_at":"2026-09-10T14:49:42Z","updated_at":"2026-09-10T14:49:53Z"},{"id":555209452,"node_id":"RA_kwDOBM-8gs4hF9Ls","name":"gopass-1.17.2-darwin-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":118104,"digest":"sha256:99e6503663ab0ab92cf6de45c0b5e46577807819df98a4376c111eb46a2279ca","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209252,"node_id":"RA_kwDOBM-8gs4hF9Ik","name":"gopass-1.17.2-darwin-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":6995956,"digest":"sha256:26c73a234e0004e3e85aa191a851d02d47cc410d759c29782103fdb1428ff448","download_count":1,"created_at":"2026-09-10T14:49:47Z","updated_at":"2026-09-10T14:49:48Z"},{"id":555209481,"node_id":"RA_kwDOBM-8gs4hF9MJ","name":"gopass-1.17.2-darwin-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":118104,"digest":"sha256:644e5b9a25f6d689ced3cb9bb69de73364f820f099679be9dcef985d98aa48ea","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209023,"node_id":"RA_kwDOBM-8gs4hF9E_","name":"gopass-1.17.2-freebsd-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7925808,"digest":"sha256:c22eb295aa25321d40edfda367d555e2e6f2090e2c9de0c16c9f8bb233393548","download_count":0,"created_at":"2026-09-10T14:49:40Z","updated_at":"2026-09-10T14:49:41Z"},{"id":555209449,"node_id":"RA_kwDOBM-8gs4hF9Lp","name":"gopass-1.17.2-freebsd-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:d7187124ddd4f304376e83b442e50c08ee236093ee0a7077813d72461685430d","download_count":0,"created_at":"2026-09-10T14:49:55Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209144,"node_id":"RA_kwDOBM-8gs4hF9G4","name":"gopass-1.17.2-freebsd-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7185591,"digest":"sha256:fbb0d4c7ecea796ff241a469ed0245ea2dca17958802aea424d77944d6a3fc9e","download_count":0,"created_at":"2026-09-10T14:49:43Z","updated_at":"2026-09-10T14:49:44Z"},{"id":555209466,"node_id":"RA_kwDOBM-8gs4hF9L6","name":"gopass-1.17.2-freebsd-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:9cfdbb868b484f5ac8d12ebe7965a016096336d070bd2944e2db43448594de63","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209017,"node_id":"RA_kwDOBM-8gs4hF9E5","name":"gopass-1.17.2-freebsd-armv6.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7526159,"digest":"sha256:51656299f8fd7b1f6275b9fac942d45cda33f8731a46e5fa2be632a4a143f9eb","download_count":0,"created_at":"2026-09-10T14:49:40Z","updated_at":"2026-09-10T14:49:53Z"},{"id":555209437,"node_id":"RA_kwDOBM-8gs4hF9Ld","name":"gopass-1.17.2-freebsd-armv6.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:a6b33baebd454137f25858a554c6ca8c55f0cfc9ba56f760f402e9daba8f306c","download_count":0,"created_at":"2026-09-10T14:49:55Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209101,"node_id":"RA_kwDOBM-8gs4hF9GN","name":"gopass-1.17.2-freebsd-armv7.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7519643,"digest":"sha256:359fce38c373d1e5ce21c82abc1e9eb40304754965a6ad2da0cd7f6d7dfb4dcf","download_count":0,"created_at":"2026-09-10T14:49:43Z","updated_at":"2026-09-10T14:49:43Z"},{"id":555209459,"node_id":"RA_kwDOBM-8gs4hF9Lz","name":"gopass-1.17.2-freebsd-armv7.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":124643,"digest":"sha256:29a9079b974c62502362b49c5f90b2f9e6aadc90866d16604178e0c0e3bc5e81","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209290,"node_id":"RA_kwDOBM-8gs4hF9JK","name":"gopass-1.17.2-linux-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":8144640,"digest":"sha256:95df834e451dec445565b8132efd4d9d18cb889b56d0fc65382d4ac3efdefb08","download_count":2,"created_at":"2026-09-10T14:49:49Z","updated_at":"2026-09-10T14:49:50Z"},{"id":555209484,"node_id":"RA_kwDOBM-8gs4hF9MM","name":"gopass-1.17.2-linux-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:da6705ec67d3c6ad5d405ff07c781c4ac3b94ecda405e07e3706bc3f73950f39","download_count":0,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209024,"node_id":"RA_kwDOBM-8gs4hF9FA","name":"gopass-1.17.2-linux-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7388437,"digest":"sha256:d3c1385bc5f4c69eaefe6cf0ffae172e94c0a3ab1ffd2a72eaecd2d69c602e3a","download_count":1,"created_at":"2026-09-10T14:49:40Z","updated_at":"2026-09-10T14:49:53Z"},{"id":555209442,"node_id":"RA_kwDOBM-8gs4hF9Li","name":"gopass-1.17.2-linux-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:5732c8d3bae24b675a3e1513b377c3924f5e649a0666e3eeb2100db4e666e9c8","download_count":0,"created_at":"2026-09-10T14:49:55Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209275,"node_id":"RA_kwDOBM-8gs4hF9I7","name":"gopass-1.17.2-linux-armv6.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7728518,"digest":"sha256:673fc45cc730ad50b15bd64dfcfde381a8fc1c4188eac0e6ee39466b04b8bcb1","download_count":0,"created_at":"2026-09-10T14:49:49Z","updated_at":"2026-09-10T14:49:49Z"},{"id":555209482,"node_id":"RA_kwDOBM-8gs4hF9MK","name":"gopass-1.17.2-linux-armv6.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:c67da5f18f77f8ba85562a7dd67a19c2971ff6a08cc981f8bf275c276d12d74e","download_count":0,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209181,"node_id":"RA_kwDOBM-8gs4hF9Hd","name":"gopass-1.17.2-linux-armv7.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7718183,"digest":"sha256:777b968a7c34b571c8f54923f289cd727012d813fda5a1841322a7d3f66f4c91","download_count":0,"created_at":"2026-09-10T14:49:44Z","updated_at":"2026-09-10T14:49:45Z"},{"id":555209473,"node_id":"RA_kwDOBM-8gs4hF9MB","name":"gopass-1.17.2-linux-armv7.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125935,"digest":"sha256:627ff82547e4ad873bef3afe83fac927df79851e600818d47d8ce23059433bca","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209341,"node_id":"RA_kwDOBM-8gs4hF9J9","name":"gopass-1.17.2-openbsd-amd64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7475390,"digest":"sha256:e4330814fb2694e44fda815bfd1fe42ba2598e2d03dd6277140f70446722b42c","download_count":0,"created_at":"2026-09-10T14:49:50Z","updated_at":"2026-09-10T14:49:51Z"},{"id":555209485,"node_id":"RA_kwDOBM-8gs4hF9MN","name":"gopass-1.17.2-openbsd-amd64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:1b6392d8795485e6b196f198c14c6b2823acb28a5aa6a8b8bcebdb9649b1e4ac","download_count":0,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209226,"node_id":"RA_kwDOBM-8gs4hF9IK","name":"gopass-1.17.2-openbsd-arm64.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":6743325,"digest":"sha256:447ce9e42b3d8af93a819c6eb4bcc33f42c5efe8c35ca8be6fd50fb16c3c5123","download_count":0,"created_at":"2026-09-10T14:49:47Z","updated_at":"2026-09-10T14:49:47Z"},{"id":555209477,"node_id":"RA_kwDOBM-8gs4hF9MF","name":"gopass-1.17.2-openbsd-arm64.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:086cbc89ff5a2f6c9e1332d4839e8da93b5da4663a5b245d4b72866730dfe125","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209203,"node_id":"RA_kwDOBM-8gs4hF9Hz","name":"gopass-1.17.2-openbsd-armv6.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7080644,"digest":"sha256:75aa3c50783171b666e7c35ab0caab15aab13dee6f0ee01fa1bb8b0520121483","download_count":0,"created_at":"2026-09-10T14:49:46Z","updated_at":"2026-09-10T14:49:46Z"},{"id":555209472,"node_id":"RA_kwDOBM-8gs4hF9MA","name":"gopass-1.17.2-openbsd-armv6.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:304f58475688a7cfdf7c3a82e7bfdaabf8e6f15733c39c7c4fd3dbbfb27f27c7","download_count":0,"created_at":"2026-09-10T14:49:56Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209020,"node_id":"RA_kwDOBM-8gs4hF9E8","name":"gopass-1.17.2-openbsd-armv7.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":7069847,"digest":"sha256:b4af5c995fd554147fe780f559d3fd494dcbe88a234d817c123529ca5b1e47a0","download_count":0,"created_at":"2026-09-10T14:49:40Z","updated_at":"2026-09-10T14:49:41Z"},{"id":555209434,"node_id":"RA_kwDOBM-8gs4hF9La","name":"gopass-1.17.2-openbsd-armv7.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":116561,"digest":"sha256:2a8c019964ec3a9e88e678ffe6d0a7b78a975eed3c2f6e2dcb2a0d89226db89d","download_count":0,"created_at":"2026-09-10T14:49:55Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209347,"node_id":"RA_kwDOBM-8gs4hF9KD","name":"gopass-1.17.2-windows-amd64.zip","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":8079272,"digest":"sha256:d64e205f6681ef407dd36fbee0417a5914e3777752a5e3a45d52933fb3c6551d","download_count":1,"created_at":"2026-09-10T14:49:51Z","updated_at":"2026-09-10T14:49:52Z"},{"id":555209492,"node_id":"RA_kwDOBM-8gs4hF9MU","name":"gopass-1.17.2-windows-amd64.zip.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125840,"digest":"sha256:b172767fdea10fe53093d783ed74f515f5252bfbeb0065c901cb82d0b8172003","download_count":0,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209049,"node_id":"RA_kwDOBM-8gs4hF9FZ","name":"gopass-1.17.2-windows-arm64.zip","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":7226020,"digest":"sha256:64fcc43781c388f156bf5057bd80215f0deed4b749c0a39cc68c61fa053b009e","download_count":1,"created_at":"2026-09-10T14:49:41Z","updated_at":"2026-09-10T14:49:42Z"},{"id":555209450,"node_id":"RA_kwDOBM-8gs4hF9Lq","name":"gopass-1.17.2-windows-arm64.zip.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":125840,"digest":"sha256:8ff23abb8bf29ea977e04677bef9509d52b644de48c8c9eb686f59aabd7c27f9","download_count":0,"created_at":"2026-09-10T14:49:55Z","updated_at":"2026-09-10T14:49:56Z"},{"id":555209367,"node_id":"RA_kwDOBM-8gs4hF9KX","name":"gopass-1.17.2.tar.gz","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":3153158,"digest":"sha256:e338e6e45a8482db4dfc9ead2bb9ef0ba5be093ef813eaa64c4a5d34354ef002","download_count":0,"created_at":"2026-09-10T14:49:52Z","updated_at":"2026-09-10T14:49:53Z"},{"id":555209431,"node_id":"RA_kwDOBM-8gs4hF9LX","name":"gopass-1.17.2.tar.gz.sbom.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":254023,"digest":"sha256:c88099796315472068e4a643c455798c1c096040dbeac3bd00b0295cfb4f52f8","download_count":0,"created_at":"2026-09-10T14:49:55Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209655,"node_id":"RA_kwDOBM-8gs4hF9O3","name":"gopass-x64-windows-1.17.2.msi","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-msi","state":"uploaded","size":8295936,"digest":"sha256:2e9348d225e5c5ac529fb91c1b33bd76ab65fc32bd4f6f56e52c2a88d0f316c2","download_count":0,"created_at":"2026-09-10T14:50:03Z","updated_at":"2026-09-10T14:50:04Z"},{"id":555209391,"node_id":"RA_kwDOBM-8gs4hF9Kv","name":"gopass_1.17.2_linux_amd64.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":8145446,"digest":"sha256:9a380b3b7a1c2d8f0e4520b2fddb2258e9be814cc7be15da80ef2687656255cb","download_count":2,"created_at":"2026-09-10T14:49:53Z","updated_at":"2026-09-10T14:49:54Z"},{"id":555209422,"node_id":"RA_kwDOBM-8gs4hF9LO","name":"gopass_1.17.2_linux_amd64.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":8147774,"digest":"sha256:dc0b54146379db8140f08db3a55bbf346a63858a2f1bd4d411226f93951dbab2","download_count":2,"created_at":"2026-09-10T14:49:54Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209384,"node_id":"RA_kwDOBM-8gs4hF9Ko","name":"gopass_1.17.2_linux_arm64.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":7388110,"digest":"sha256:094460edaddd330fe10735e4965acdbaf743919a05d805ce2be577c1b3e69a0f","download_count":0,"created_at":"2026-09-10T14:49:53Z","updated_at":"2026-09-10T14:49:54Z"},{"id":555209417,"node_id":"RA_kwDOBM-8gs4hF9LJ","name":"gopass_1.17.2_linux_arm64.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":7391323,"digest":"sha256:10e5185a6c89495a0ddcdb5c64b9db1f26048b7cbd70d9ecc1030147a119eb6a","download_count":0,"created_at":"2026-09-10T14:49:54Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209383,"node_id":"RA_kwDOBM-8gs4hF9Kn","name":"gopass_1.17.2_linux_armv6.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":7734198,"digest":"sha256:91e7521de21444146e633bc571c2338a827970285688293ed8797b6d87c1e827","download_count":0,"created_at":"2026-09-10T14:49:53Z","updated_at":"2026-09-10T14:49:54Z"},{"id":555209409,"node_id":"RA_kwDOBM-8gs4hF9LB","name":"gopass_1.17.2_linux_armv6.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":7738769,"digest":"sha256:3216cae3794808b779752ba86faf99b36e0c08e30592c4e56f035d6f129aa324","download_count":0,"created_at":"2026-09-10T14:49:54Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209382,"node_id":"RA_kwDOBM-8gs4hF9Km","name":"gopass_1.17.2_linux_armv7.deb","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/vnd.debian.binary-package","state":"uploaded","size":7719202,"digest":"sha256:bcbe2dcdf823f87d5248a5ce08b8fa5a0dc6655b3487a19c58d36f56ae5a603f","download_count":0,"created_at":"2026-09-10T14:49:53Z","updated_at":"2026-09-10T14:49:54Z"},{"id":555209418,"node_id":"RA_kwDOBM-8gs4hF9LK","name":"gopass_1.17.2_linux_armv7.rpm","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-rpm","state":"uploaded","size":7727896,"digest":"sha256:85adfb6e5e2e5ef97e7ab7d3af8627c2f10138923fdb8a5224c18a42e0255f2f","download_count":0,"created_at":"2026-09-10T14:49:54Z","updated_at":"2026-09-10T14:49:55Z"},{"id":555209495,"node_id":"RA_kwDOBM-8gs4hF9MX","name":"gopass_1.17.2_SHA256SUMS","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4312,"digest":"sha256:aed9026432055d1db810c9139be55491cb196f9b3a73aac392674c1f32095d9f","download_count":3,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209497,"node_id":"RA_kwDOBM-8gs4hF9MZ","name":"gopass_1.17.2_SHA256SUMS.sig","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/pgp-signature","state":"uploaded","size":659,"digest":"sha256:887407cbe14319799047a49201ef06ff43d3f040d77b9bd2d10a479557480f30","download_count":0,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:57Z"},{"id":555209503,"node_id":"RA_kwDOBM-8gs4hF9Mf","name":"gopass_1.17.2_SHA256SUMS.sigstore.json","label":"","uploader":{"login":"gopass-releaser","id":77737534,"node_id":"MDQ6VXNlcjc3NzM3NTM0","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/json","state":"uploaded","size":10167,"digest":"sha256:d455b12ae47b2e90ef58c38953d8169d1aa4c96df40598a9edca110b6ff75e10","download_count":0,"created_at":"2026-09-10T14:49:57Z","updated_at":"2026-09-10T14:49:58Z"}],"body":"## [1.17.2] - 2026-09-10\n\n### Fixed\n\n- Remove GPG_FINGERPRINT from goreleaser config\n- Revert to goreleaser 2.11.2 so we can keep on Go 1.25\n- ci: Fix broken script snippet in release workflow\n\n\n"}
