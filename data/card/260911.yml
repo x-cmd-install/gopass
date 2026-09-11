@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.17.2"
   latestRelease: "v1.17.2"
   latestPrerelease: "v1.17.2-rc.0"
-  collectedAt: 2026-09-11T00:09:54Z
+  collectedAt: 2026-09-11T05:03:09Z
 timeline:
   created: 2017-02-02
   lastCommit: 2026-09-10
@@ -87,7 +87,7 @@ total:
   commit: 2342
 ---
 path: /home/runner/.x-repo/github.com/gopasspw/gopass
-collectedAt: 2026-09-11T00:09:57Z
+collectedAt: 2026-09-11T05:03:14Z
 loc:
   Go:
     code: 60120
