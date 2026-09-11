@@ -12,6 +12,27 @@ The slightly more awesome standard unix password manager for teams
 x install gopass
 ```
 
+## Code insight
+
+Total: **60,828** lines of code across **679** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 60,120 | 5,298 | 12,493 | 595 |
+| Svg | 494 | 1 | 0 | 1 |
+| Makefile | 171 | 1 | 32 | 1 |
+| Dockerfile | 43 | 5 | 20 | 1 |
+| Markdown | 0 | 6,536 | 2,415 | 81 |
+
+## OpenSSF Scorecard
+
+Overall score: **8.7 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+
 ## Source
 
 - **Upstream**: <https://github.com/gopasspw/gopass>
@@ -23,6 +44,25 @@ x install gopass
 - **Latest**: `v1.17.2` (2026-09-10)
 - **Last commit**: 2026-09-10
 - **Assets in release**: 46
+
+## Popularity
+
+- **Stars**: 7,134 · **Forks**: 558 · **Open issues**: 1,323 · **Contributors**: 241
+
+## Totals (cumulative)
+
+- **Releases**: 104 · **Merged PRs**: 2015 · **Open PRs**: 7 · **Closed issues**: 1242 · **Open issues**: 81 · **Commits**: 2342
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-12 | 5 | 59 | 5 | 3 | 5 | 74 |
+| last60d | 2026-07-13 | 5 | 83 | 5 | 13 | 5 | 94 |
+| 90d | 2026-06-13 | 5 | 93 | 5 | 19 | 6 | 102 |
+| last180d | 2026-03-15 | 7 | 167 | 7 | 38 | 15 | 205 |
+| 360d | 2025-09-16 | 10 | 251 | 7 | 57 | 19 | 287 |
+| last720d | 2024-09-21 | 13 | 447 | 7 | 105 | 28 | 488 |
 
 ## Release assets
 
@@ -75,43 +115,6 @@ x install gopass
 | [gopass_1.17.2_SHA256SUMS.sig](https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS.sig) | 659 B | `other` |
 | [gopass_1.17.2_SHA256SUMS.sigstore.json](https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS.sigstore.json) | 9.9 KiB | `other` |
 
-## Popularity
-
-- **Stars**: 7,133 · **Forks**: 558 · **Open issues**: 1,323 · **Contributors**: 241
-
-## Totals (cumulative)
-
-- **Releases**: 104 · **Merged PRs**: 2014 · **Open PRs**: 7 · **Closed issues**: 1241 · **Open issues**: 82 · **Commits**: 2341
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 5 | 59 | 5 | 2 | 6 | 73 |
-| 90d | 2026-06-12 | 5 | 92 | 5 | 18 | 7 | 101 |
-| 360d | 2025-09-15 | 11 | 251 | 7 | 58 | 20 | 286 |
-
-## Code size
-
-Total: **60,112** lines of code across **672** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 59,404 | 5,243 | 12,336 | 589 |
-| Svg | 494 | 1 | 0 | 1 |
-| Makefile | 171 | 1 | 32 | 1 |
-| Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 6,366 | 2,346 | 80 |
-
-## OpenSSF Scorecard
-
-Overall score: **8.7 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (2/10) — Found 5/21 approved changesets -- score normalized to 2
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
-
 ## Improve this data
 
 Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gopass` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -121,4 +124,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:46:50Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T00:10:03Z._

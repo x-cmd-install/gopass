@@ -12,6 +12,27 @@ The slightly more awesome standard unix password manager for teams
 x install gopass
 ```
 
+## 代码洞察
+
+合计: **60,828** 行代码（覆盖前 5 种语言、共 **679** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 60,120 | 5,298 | 12,493 | 595 |
+| Svg | 494 | 1 | 0 | 1 |
+| Makefile | 171 | 1 | 32 | 1 |
+| Dockerfile | 43 | 5 | 20 | 1 |
+| Markdown | 0 | 6,536 | 2,415 | 81 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **8.7 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/gopasspw/gopass>
@@ -23,6 +44,25 @@ x install gopass
 - **最新版本**: `v1.17.2` (2026-09-10)
 - **最近提交**: 2026-09-10
 - **Release 含资产**: 46 个
+
+## 流行度
+
+- **Star**: 7,134 · **Fork**: 558 · **开放 issue**: 1,323 · **贡献者**: 241
+
+## 累计统计
+
+- **发布数**: 104 · **已合并 PR**: 2015 · **开放 PR**: 7 · **已关闭 issue**: 1242 · **开放 issue**: 81 · **提交数**: 2342
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-12 | 5 | 59 | 5 | 3 | 5 | 74 |
+| last60d | 2026-07-13 | 5 | 83 | 5 | 13 | 5 | 94 |
+| 90d | 2026-06-13 | 5 | 93 | 5 | 19 | 6 | 102 |
+| last180d | 2026-03-15 | 7 | 167 | 7 | 38 | 15 | 205 |
+| 360d | 2025-09-16 | 10 | 251 | 7 | 57 | 19 | 287 |
+| last720d | 2024-09-21 | 13 | 447 | 7 | 105 | 28 | 488 |
 
 ## Release 资产
 
@@ -75,43 +115,6 @@ x install gopass
 | [gopass_1.17.2_SHA256SUMS.sig](https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS.sig) | 659 B | `other` |
 | [gopass_1.17.2_SHA256SUMS.sigstore.json](https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS.sigstore.json) | 9.9 KiB | `other` |
 
-## 流行度
-
-- **Star**: 7,133 · **Fork**: 558 · **开放 issue**: 1,323 · **贡献者**: 241
-
-## 累计统计
-
-- **发布数**: 104 · **已合并 PR**: 2014 · **开放 PR**: 7 · **已关闭 issue**: 1241 · **开放 issue**: 82 · **提交数**: 2341
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 5 | 59 | 5 | 2 | 6 | 73 |
-| 90d | 2026-06-12 | 5 | 92 | 5 | 18 | 7 | 101 |
-| 360d | 2025-09-15 | 11 | 251 | 7 | 58 | 20 | 286 |
-
-## 代码规模
-
-合计: **60,112** 行代码（覆盖前 5 种语言、共 **672** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 59,404 | 5,243 | 12,336 | 589 |
-| Svg | 494 | 1 | 0 | 1 |
-| Makefile | 171 | 1 | 32 | 1 |
-| Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 6,366 | 2,346 | 80 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **8.7 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (2/10) — Found 5/21 approved changesets -- score normalized to 2
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
-
 ## 改进这些数据
 
 gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gopass` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -121,4 +124,4 @@ gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:46:51Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T00:10:04Z._
