@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 5 | 61 | 5 | 4 | 5 | 0 |
-| last60d | 2026-07-13 | 5 | 85 | 5 | 14 | 5 | 0 |
-| 90d | 2026-06-13 | 5 | 95 | 5 | 20 | 6 | 0 |
-| last180d | 2026-03-15 | 7 | 169 | 7 | 39 | 15 | 0 |
-| 360d | 2025-09-16 | 10 | 253 | 7 | 58 | 19 | 0 |
-| last720d | 2024-09-21 | 13 | 449 | 7 | 107 | 27 | 490 |
+| 30d | 2026-08-13 | 5 | 61 | 5 | 4 | 5 | 76 |
+| last60d | 2026-07-14 | 5 | 85 | 5 | 14 | 5 | 96 |
+| 90d | 2026-06-14 | 5 | 95 | 5 | 20 | 6 | 104 |
+| last180d | 2026-03-16 | 7 | 169 | 7 | 39 | 15 | 207 |
+| 360d | 2025-09-17 | 10 | 248 | 7 | 57 | 19 | 289 |
+| last720d | 2024-09-22 | 13 | 449 | 7 | 107 | 27 | 490 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T20:07:36Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T04:54:21Z._
