@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7554902,
       "digest": "sha256:9ff90e8fe1dd4fd135f8031065b2a6d309f81196ed9b9285f01d4b020407ecab",
-      "download_count": 9,
+      "download_count": 13,
       "created_at": "2026-09-10T14:49:42Z",
       "updated_at": "2026-09-10T14:49:53Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2-darwin-amd64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 6995956,
       "digest": "sha256:26c73a234e0004e3e85aa191a851d02d47cc410d759c29782103fdb1428ff448",
-      "download_count": 14,
+      "download_count": 20,
       "created_at": "2026-09-10T14:49:47Z",
       "updated_at": "2026-09-10T14:49:48Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2-darwin-arm64.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8144640,
       "digest": "sha256:95df834e451dec445565b8132efd4d9d18cb889b56d0fc65382d4ac3efdefb08",
-      "download_count": 69,
+      "download_count": 104,
       "created_at": "2026-09-10T14:49:49Z",
       "updated_at": "2026-09-10T14:49:50Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2-linux-amd64.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 7388437,
       "digest": "sha256:d3c1385bc5f4c69eaefe6cf0ffae172e94c0a3ab1ffd2a72eaecd2d69c602e3a",
-      "download_count": 6,
+      "download_count": 8,
       "created_at": "2026-09-10T14:49:40Z",
       "updated_at": "2026-09-10T14:49:53Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2-linux-arm64.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 8079272,
       "digest": "sha256:d64e205f6681ef407dd36fbee0417a5914e3777752a5e3a45d52933fb3c6551d",
-      "download_count": 118,
+      "download_count": 139,
       "created_at": "2026-09-10T14:49:51Z",
       "updated_at": "2026-09-10T14:49:52Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2-windows-amd64.zip"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 7226020,
       "digest": "sha256:64fcc43781c388f156bf5057bd80215f0deed4b749c0a39cc68c61fa053b009e",
-      "download_count": 34,
+      "download_count": 35,
       "created_at": "2026-09-10T14:49:41Z",
       "updated_at": "2026-09-10T14:49:42Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2-windows-arm64.zip"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 3153158,
       "digest": "sha256:e338e6e45a8482db4dfc9ead2bb9ef0ba5be093ef813eaa64c4a5d34354ef002",
-      "download_count": 50,
+      "download_count": 64,
       "created_at": "2026-09-10T14:49:52Z",
       "updated_at": "2026-09-10T14:49:53Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-1.17.2.tar.gz"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 8295936,
       "digest": "sha256:2e9348d225e5c5ac529fb91c1b33bd76ab65fc32bd4f6f56e52c2a88d0f316c2",
-      "download_count": 11,
+      "download_count": 13,
       "created_at": "2026-09-10T14:50:03Z",
       "updated_at": "2026-09-10T14:50:04Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass-x64-windows-1.17.2.msi"
@@ -1327,7 +1327,7 @@
       "state": "uploaded",
       "size": 8145446,
       "digest": "sha256:9a380b3b7a1c2d8f0e4520b2fddb2258e9be814cc7be15da80ef2687656255cb",
-      "download_count": 9,
+      "download_count": 12,
       "created_at": "2026-09-10T14:49:53Z",
       "updated_at": "2026-09-10T14:49:54Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_linux_amd64.deb"
@@ -1615,7 +1615,7 @@
       "state": "uploaded",
       "size": 4312,
       "digest": "sha256:aed9026432055d1db810c9139be55491cb196f9b3a73aac392674c1f32095d9f",
-      "download_count": 67,
+      "download_count": 91,
       "created_at": "2026-09-10T14:49:57Z",
       "updated_at": "2026-09-10T14:49:57Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS"
@@ -1651,7 +1651,7 @@
       "state": "uploaded",
       "size": 659,
       "digest": "sha256:887407cbe14319799047a49201ef06ff43d3f040d77b9bd2d10a479557480f30",
-      "download_count": 8,
+      "download_count": 15,
       "created_at": "2026-09-10T14:49:57Z",
       "updated_at": "2026-09-10T14:49:57Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS.sig"
@@ -1687,7 +1687,7 @@
       "state": "uploaded",
       "size": 10167,
       "digest": "sha256:d455b12ae47b2e90ef58c38953d8169d1aa4c96df40598a9edca110b6ff75e10",
-      "download_count": 19,
+      "download_count": 30,
       "created_at": "2026-09-10T14:49:57Z",
       "updated_at": "2026-09-10T14:49:58Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.2/gopass_1.17.2_SHA256SUMS.sigstore.json"
