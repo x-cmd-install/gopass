@@ -26,11 +26,11 @@ x install gopass
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.7 / 10**
+总评分: **8.8 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 4/23 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
@@ -42,27 +42,27 @@ x install gopass
 ## 发布
 
 - **最新版本**: `v1.17.2` (2026-09-10)
-- **最近提交**: 2026-09-12
+- **最近提交**: 2026-09-16
 - **Release 含资产**: 46 个
 
 ## 流行度
 
-- **Star**: 7,148 · **Fork**: 561 · **开放 issue**: 1,324 · **贡献者**: 241
+- **Star**: 7,151 · **Fork**: 561 · **开放 issue**: 1,325 · **贡献者**: 241
 
 ## 累计统计
 
-- **发布数**: 104 · **已合并 PR**: 2018 · **开放 PR**: 10 · **已关闭 issue**: 1244 · **开放 issue**: 80 · **提交数**: 2345
+- **发布数**: 104 · **已合并 PR**: 2019 · **开放 PR**: 9 · **已关闭 issue**: 1244 · **开放 issue**: 81 · **提交数**: 2346
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 5 | 60 | 8 | 4 | 5 | 64 |
-| last60d | 2026-07-18 | 5 | 84 | 8 | 14 | 5 | 97 |
-| 90d | 2026-06-18 | 5 | 96 | 8 | 19 | 5 | 105 |
-| last180d | 2026-03-20 | 7 | 169 | 10 | 39 | 15 | 207 |
-| 360d | 2025-09-21 | 9 | 235 | 10 | 54 | 19 | 273 |
-| last720d | 2024-09-26 | 13 | 449 | 10 | 106 | 26 | 489 |
+| 30d | 2026-08-18 | 5 | 61 | 7 | 4 | 6 | 65 |
+| last60d | 2026-07-19 | 5 | 84 | 7 | 14 | 6 | 98 |
+| 90d | 2026-06-19 | 5 | 97 | 7 | 19 | 6 | 106 |
+| last180d | 2026-03-21 | 7 | 170 | 9 | 39 | 16 | 208 |
+| 360d | 2025-09-22 | 9 | 236 | 9 | 53 | 20 | 274 |
+| last720d | 2024-09-27 | 13 | 450 | 9 | 106 | 27 | 490 |
 
 ## Release 资产
 
@@ -124,4 +124,4 @@ gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260916.yml` · 2026-09-16T05:13:34Z._
+_数据快照: `data/card/260917.yml` · 2026-09-17T05:10:10Z._

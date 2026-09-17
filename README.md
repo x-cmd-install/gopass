@@ -26,11 +26,11 @@ Total: **61,160** lines of code across **695** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.7 / 10**
+Overall score: **8.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/23 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.2` (2026-09-10)
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-16
 - **Assets in release**: 46
 
 ## Popularity
 
-- **Stars**: 7,148 · **Forks**: 561 · **Open issues**: 1,324 · **Contributors**: 241
+- **Stars**: 7,151 · **Forks**: 561 · **Open issues**: 1,325 · **Contributors**: 241
 
 ## Totals (cumulative)
 
-- **Releases**: 104 · **Merged PRs**: 2018 · **Open PRs**: 10 · **Closed issues**: 1244 · **Open issues**: 80 · **Commits**: 2345
+- **Releases**: 104 · **Merged PRs**: 2019 · **Open PRs**: 9 · **Closed issues**: 1244 · **Open issues**: 81 · **Commits**: 2346
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 5 | 60 | 8 | 4 | 5 | 64 |
-| last60d | 2026-07-18 | 5 | 84 | 8 | 14 | 5 | 97 |
-| 90d | 2026-06-18 | 5 | 96 | 8 | 19 | 5 | 105 |
-| last180d | 2026-03-20 | 7 | 169 | 10 | 39 | 15 | 207 |
-| 360d | 2025-09-21 | 9 | 235 | 10 | 54 | 19 | 273 |
-| last720d | 2024-09-26 | 13 | 449 | 10 | 106 | 26 | 489 |
+| 30d | 2026-08-18 | 5 | 61 | 7 | 4 | 6 | 65 |
+| last60d | 2026-07-19 | 5 | 84 | 7 | 14 | 6 | 98 |
+| 90d | 2026-06-19 | 5 | 97 | 7 | 19 | 6 | 106 |
+| last180d | 2026-03-21 | 7 | 170 | 9 | 39 | 16 | 208 |
+| 360d | 2025-09-22 | 9 | 236 | 9 | 53 | 20 | 274 |
+| last720d | 2024-09-27 | 13 | 450 | 9 | 106 | 27 | 490 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:13:34Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T05:10:09Z._
