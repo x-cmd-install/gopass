@@ -4,7 +4,7 @@
 
 The slightly more awesome standard unix password manager for teams
 
-![gopass](https://repo.x-cmd.io/gopass.svg?lang=zh)
+[![x-cmd/install — gopass Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gopass.svg?lang=zh)](https://x-cmd.com/install/gopass)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install gopass
 
 ## 流行度
 
-- **Star**: 7,152 · **Fork**: 562 · **开放 issue**: 1,325 · **贡献者**: 242
+- **Star**: 7,152 · **Fork**: 561 · **开放 issue**: 1,325 · **贡献者**: 242
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install gopass
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 5 | 57 | 7 | 4 | 6 | 66 |
-| last60d | 2026-07-20 | 5 | 85 | 7 | 14 | 6 | 99 |
-| 90d | 2026-06-20 | 5 | 98 | 7 | 19 | 6 | 107 |
-| last180d | 2026-03-22 | 7 | 171 | 9 | 39 | 16 | 209 |
-| 360d | 2025-09-23 | 9 | 237 | 9 | 53 | 20 | 275 |
-| last720d | 2024-09-28 | 13 | 450 | 9 | 106 | 27 | 491 |
+| 30d | 2026-08-21 | 5 | 33 | 6 | 4 | 4 | 33 |
+| last60d | 2026-07-22 | 5 | 85 | 7 | 14 | 6 | 99 |
+| 90d | 2026-06-22 | 5 | 98 | 7 | 19 | 6 | 107 |
+| last180d | 2026-03-24 | 7 | 171 | 9 | 39 | 16 | 209 |
+| 360d | 2025-09-25 | 9 | 237 | 9 | 53 | 20 | 275 |
+| last720d | 2024-09-30 | 13 | 449 | 9 | 105 | 27 | 491 |
 
 ## Release 资产
 
@@ -124,4 +124,4 @@ gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:11:36Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:09:11Z._
