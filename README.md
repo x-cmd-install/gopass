@@ -14,23 +14,23 @@ x install gopass
 
 ## Code insight
 
-Total: **61,278** lines of code across **696** files in the top 5 languages.
+Total: **61,436** lines of code across **696** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 60,570 | 5,378 | 12,602 | 598 |
+| Go | 60,728 | 5,403 | 12,650 | 598 |
 | Svg | 494 | 1 | 0 | 1 |
 | Makefile | 171 | 1 | 32 | 1 |
 | Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 7,029 | 2,626 | 95 |
+| Markdown | 0 | 7,033 | 2,628 | 95 |
 
 ## OpenSSF Scorecard
 
-Overall score: **8.8 / 10**
+Overall score: **8.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/22 approved changesets -- score normalized to 1
+- **Code-Review** (2/10) — Found 7/24 approved changesets -- score normalized to 2
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.3` (2026-09-22)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-29
 - **Assets in release**: 46
 
 ## Popularity
 
-- **Stars**: 7,229 · **Forks**: 562 · **Open issues**: 1,328 · **Contributors**: 242
+- **Stars**: 7,230 · **Forks**: 562 · **Open issues**: 1,329 · **Contributors**: 242
 
 ## Totals (cumulative)
 
-- **Releases**: 105 · **Merged PRs**: 2026 · **Open PRs**: 7 · **Closed issues**: 1245 · **Open issues**: 83 · **Commits**: 2353
+- **Releases**: 105 · **Merged PRs**: 2029 · **Open PRs**: 10 · **Closed issues**: 1246 · **Open issues**: 83 · **Commits**: 2356
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 5 | 24 | 5 | 5 | 5 | 29 |
-| last60d | 2026-07-31 | 6 | 81 | 5 | 9 | 8 | 102 |
-| 90d | 2026-07-01 | 6 | 97 | 5 | 17 | 8 | 113 |
-| last180d | 2026-04-02 | 8 | 161 | 7 | 37 | 18 | 170 |
-| 360d | 2025-10-04 | 10 | 233 | 7 | 52 | 22 | 263 |
-| last720d | 2024-10-09 | 14 | 446 | 7 | 102 | 29 | 487 |
+| 30d | 2026-08-31 | 4 | 26 | 8 | 6 | 5 | 32 |
+| last60d | 2026-08-01 | 6 | 76 | 8 | 10 | 8 | 105 |
+| 90d | 2026-07-02 | 6 | 100 | 8 | 18 | 8 | 116 |
+| last180d | 2026-04-03 | 8 | 163 | 10 | 38 | 18 | 173 |
+| 360d | 2025-10-05 | 10 | 228 | 10 | 52 | 22 | 266 |
+| last720d | 2024-10-10 | 14 | 448 | 10 | 103 | 29 | 490 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:04:50Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:43:20Z._
