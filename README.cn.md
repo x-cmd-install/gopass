@@ -30,7 +30,7 @@ x install gopass
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 7/24 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/23 approved changesets -- score normalized to 2
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
@@ -42,27 +42,27 @@ x install gopass
 ## 发布
 
 - **最新版本**: `v1.17.3` (2026-09-22)
-- **最近提交**: 2026-09-29
+- **最近提交**: 2026-09-30
 - **Release 含资产**: 46 个
 
 ## 流行度
 
-- **Star**: 7,230 · **Fork**: 562 · **开放 issue**: 1,329 · **贡献者**: 242
+- **Star**: 7,233 · **Fork**: 562 · **开放 issue**: 1,329 · **贡献者**: 242
 
 ## 累计统计
 
-- **发布数**: 105 · **已合并 PR**: 2029 · **开放 PR**: 10 · **已关闭 issue**: 1246 · **开放 issue**: 83 · **提交数**: 2356
+- **发布数**: 105 · **已合并 PR**: 2031 · **开放 PR**: 10 · **已关闭 issue**: 1246 · **开放 issue**: 83 · **提交数**: 2358
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 4 | 26 | 8 | 6 | 5 | 32 |
-| last60d | 2026-08-01 | 6 | 76 | 8 | 10 | 8 | 105 |
-| 90d | 2026-07-02 | 6 | 100 | 8 | 18 | 8 | 116 |
-| last180d | 2026-04-03 | 8 | 163 | 10 | 38 | 18 | 173 |
-| 360d | 2025-10-05 | 10 | 228 | 10 | 52 | 22 | 266 |
-| last720d | 2024-10-10 | 14 | 448 | 10 | 103 | 29 | 490 |
+| 30d | 2026-09-01 | 4 | 25 | 5 | 6 | 5 | 34 |
+| last60d | 2026-08-02 | 6 | 78 | 8 | 10 | 8 | 107 |
+| 90d | 2026-07-03 | 6 | 102 | 8 | 18 | 8 | 118 |
+| last180d | 2026-04-04 | 8 | 164 | 10 | 38 | 18 | 175 |
+| 360d | 2025-10-06 | 10 | 229 | 10 | 52 | 21 | 268 |
+| last720d | 2024-10-11 | 14 | 450 | 10 | 103 | 29 | 492 |
 
 ## Release 资产
 
@@ -124,4 +124,4 @@ gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260930.yml` · 2026-09-30T05:43:21Z._
+_数据快照: `data/card/261001.yml` · 2026-10-01T06:00:27Z._

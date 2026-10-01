@@ -30,7 +30,7 @@ Overall score: **8.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 7/24 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/23 approved changesets -- score normalized to 2
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.3` (2026-09-22)
-- **Last commit**: 2026-09-29
+- **Last commit**: 2026-09-30
 - **Assets in release**: 46
 
 ## Popularity
 
-- **Stars**: 7,230 · **Forks**: 562 · **Open issues**: 1,329 · **Contributors**: 242
+- **Stars**: 7,233 · **Forks**: 562 · **Open issues**: 1,329 · **Contributors**: 242
 
 ## Totals (cumulative)
 
-- **Releases**: 105 · **Merged PRs**: 2029 · **Open PRs**: 10 · **Closed issues**: 1246 · **Open issues**: 83 · **Commits**: 2356
+- **Releases**: 105 · **Merged PRs**: 2031 · **Open PRs**: 10 · **Closed issues**: 1246 · **Open issues**: 83 · **Commits**: 2358
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 4 | 26 | 8 | 6 | 5 | 32 |
-| last60d | 2026-08-01 | 6 | 76 | 8 | 10 | 8 | 105 |
-| 90d | 2026-07-02 | 6 | 100 | 8 | 18 | 8 | 116 |
-| last180d | 2026-04-03 | 8 | 163 | 10 | 38 | 18 | 173 |
-| 360d | 2025-10-05 | 10 | 228 | 10 | 52 | 22 | 266 |
-| last720d | 2024-10-10 | 14 | 448 | 10 | 103 | 29 | 490 |
+| 30d | 2026-09-01 | 4 | 25 | 5 | 6 | 5 | 34 |
+| last60d | 2026-08-02 | 6 | 78 | 8 | 10 | 8 | 107 |
+| 90d | 2026-07-03 | 6 | 102 | 8 | 18 | 8 | 118 |
+| last180d | 2026-04-04 | 8 | 164 | 10 | 38 | 18 | 175 |
+| 360d | 2025-10-06 | 10 | 229 | 10 | 52 | 21 | 268 |
+| last720d | 2024-10-11 | 14 | 450 | 10 | 103 | 29 | 492 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:43:20Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:00:24Z._
