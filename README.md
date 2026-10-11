@@ -14,19 +14,19 @@ x install gopass
 
 ## Code insight
 
-Total: **68,958** lines of code across **740** files in the top 5 languages.
+Total: **69,026** lines of code across **740** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 68,258 | 6,578 | 14,190 | 640 |
+| Go | 68,326 | 6,608 | 14,209 | 640 |
 | Svg | 494 | 1 | 0 | 1 |
 | Makefile | 163 | 1 | 30 | 1 |
 | Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 7,566 | 2,755 | 97 |
+| Markdown | 0 | 7,572 | 2,768 | 97 |
 
 ## OpenSSF Scorecard
 
-Overall score: **9 / 10**
+Overall score: **8.9 / 10**
 
 Lowest-scoring checks:
 
@@ -41,79 +41,78 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.17.3` (2026-09-22)
+- **Latest**: `v1.17.4` (2026-10-10)
 - **Last commit**: 2026-10-10
-- **Assets in release**: 46
+- **Assets in release**: 45
 
 ## Popularity
 
-- **Stars**: 7,256 · **Forks**: 564 · **Open issues**: 1,331 · **Contributors**: 244
+- **Stars**: 7,258 · **Forks**: 566 · **Open issues**: 1,331 · **Contributors**: 244
 
 ## Totals (cumulative)
 
-- **Releases**: 105 · **Merged PRs**: 2054 · **Open PRs**: 4 · **Closed issues**: 1251 · **Open issues**: 80 · **Commits**: 2381
+- **Releases**: 106 · **Merged PRs**: 2057 · **Open PRs**: 7 · **Closed issues**: 1251 · **Open issues**: 80 · **Commits**: 2384
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 3 | 38 | 3 | 8 | 0 | 39 |
-| last60d | 2026-08-11 | 6 | 99 | 3 | 11 | 5 | 116 |
-| 90d | 2026-07-12 | 6 | 122 | 3 | 21 | 5 | 133 |
-| last180d | 2026-04-13 | 8 | 183 | 4 | 43 | 14 | 193 |
-| 360d | 2025-10-15 | 10 | 252 | 4 | 57 | 18 | 291 |
-| last720d | 2024-10-20 | 14 | 468 | 4 | 108 | 25 | 510 |
+| 30d | 2026-09-11 | 2 | 39 | 6 | 7 | 0 | 37 |
+| last60d | 2026-08-12 | 7 | 101 | 6 | 11 | 5 | 114 |
+| 90d | 2026-07-13 | 7 | 125 | 6 | 21 | 5 | 136 |
+| last180d | 2026-04-14 | 9 | 186 | 7 | 43 | 14 | 196 |
+| 360d | 2025-10-16 | 11 | 255 | 7 | 57 | 18 | 294 |
+| last720d | 2024-10-21 | 15 | 471 | 7 | 108 | 25 | 512 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [gopass-1.17.3-darwin-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-darwin-amd64.tar.gz) | 7.3 MiB | `native/darwin/x64` |
-| [gopass-1.17.3-darwin-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-darwin-amd64.tar.gz.sbom.json) | 112.2 KiB | `native/darwin/x64` |
-| [gopass-1.17.3-darwin-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-darwin-arm64.tar.gz) | 6.7 MiB | `native/darwin/arm64` |
-| [gopass-1.17.3-darwin-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-darwin-arm64.tar.gz.sbom.json) | 112.2 KiB | `native/darwin/arm64` |
-| [gopass-1.17.3-freebsd-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-amd64.tar.gz) | 7.7 MiB | `native/linux/x64` |
-| [gopass-1.17.3-freebsd-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-amd64.tar.gz.sbom.json) | 118.6 KiB | `other` |
-| [gopass-1.17.3-freebsd-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-arm64.tar.gz) | 6.9 MiB | `native/linux/arm64` |
-| [gopass-1.17.3-freebsd-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-arm64.tar.gz.sbom.json) | 118.6 KiB | `other` |
-| [gopass-1.17.3-freebsd-armv6.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-armv6.tar.gz) | 7.3 MiB | `native/linux/arm` |
-| [gopass-1.17.3-freebsd-armv6.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-armv6.tar.gz.sbom.json) | 118.6 KiB | `other` |
-| [gopass-1.17.3-freebsd-armv7.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-armv7.tar.gz) | 7.3 MiB | `native/linux/arm` |
-| [gopass-1.17.3-freebsd-armv7.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-freebsd-armv7.tar.gz.sbom.json) | 118.6 KiB | `other` |
-| [gopass-1.17.3-linux-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-amd64.tar.gz) | 7.9 MiB | `native/linux/x64` |
-| [gopass-1.17.3-linux-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-amd64.tar.gz.sbom.json) | 119.8 KiB | `native/linux/x64` |
-| [gopass-1.17.3-linux-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-arm64.tar.gz) | 7.1 MiB | `native/linux/arm64` |
-| [gopass-1.17.3-linux-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-arm64.tar.gz.sbom.json) | 119.8 KiB | `native/linux/arm64` |
-| [gopass-1.17.3-linux-armv6.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-armv6.tar.gz) | 7.5 MiB | `native/linux/arm` |
-| [gopass-1.17.3-linux-armv6.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-armv6.tar.gz.sbom.json) | 119.8 KiB | `native/linux/arm` |
-| [gopass-1.17.3-linux-armv7.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-armv7.tar.gz) | 7.5 MiB | `native/linux/arm` |
-| [gopass-1.17.3-linux-armv7.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-linux-armv7.tar.gz.sbom.json) | 119.8 KiB | `native/linux/arm` |
-| [gopass-1.17.3-openbsd-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-amd64.tar.gz) | 7.2 MiB | `native/linux/x64` |
-| [gopass-1.17.3-openbsd-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-amd64.tar.gz.sbom.json) | 110.7 KiB | `other` |
-| [gopass-1.17.3-openbsd-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-arm64.tar.gz) | 6.5 MiB | `native/linux/arm64` |
-| [gopass-1.17.3-openbsd-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-arm64.tar.gz.sbom.json) | 110.7 KiB | `other` |
-| [gopass-1.17.3-openbsd-armv6.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-armv6.tar.gz) | 6.9 MiB | `native/linux/arm` |
-| [gopass-1.17.3-openbsd-armv6.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-armv6.tar.gz.sbom.json) | 110.7 KiB | `other` |
-| [gopass-1.17.3-openbsd-armv7.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-armv7.tar.gz) | 6.9 MiB | `native/linux/arm` |
-| [gopass-1.17.3-openbsd-armv7.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-openbsd-armv7.tar.gz.sbom.json) | 110.7 KiB | `other` |
-| [gopass-1.17.3-windows-amd64.zip](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-windows-amd64.zip) | 7.8 MiB | `native/win/x64` |
-| [gopass-1.17.3-windows-amd64.zip.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-windows-amd64.zip.sbom.json) | 119.7 KiB | `native/win/x64` |
-| [gopass-1.17.3-windows-arm64.zip](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-windows-arm64.zip) | 7.0 MiB | `native/win/arm64` |
-| [gopass-1.17.3-windows-arm64.zip.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3-windows-arm64.zip.sbom.json) | 119.7 KiB | `native/win/arm64` |
-| [gopass-1.17.3.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3.tar.gz) | 3.0 MiB | `native/unknown` |
-| [gopass-1.17.3.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-1.17.3.tar.gz.sbom.json) | 250.8 KiB | `other` |
-| [gopass-x64-windows-1.17.3.msi](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass-x64-windows-1.17.3.msi) | 8.0 MiB | `native/win/x64` |
-| [gopass_1.17.3_linux_amd64.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_amd64.deb) | 7.9 MiB | `native/linux/x64` |
-| [gopass_1.17.3_linux_amd64.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_amd64.rpm) | 7.9 MiB | `native/linux/x64` |
-| [gopass_1.17.3_linux_arm64.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_arm64.deb) | 7.1 MiB | `native/linux/arm64` |
-| [gopass_1.17.3_linux_arm64.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_arm64.rpm) | 7.1 MiB | `native/linux/arm64` |
-| [gopass_1.17.3_linux_armv6.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_armv6.deb) | 7.5 MiB | `native/linux/arm` |
-| [gopass_1.17.3_linux_armv6.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_armv6.rpm) | 7.5 MiB | `native/linux/arm` |
-| [gopass_1.17.3_linux_armv7.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_armv7.deb) | 7.5 MiB | `native/linux/arm` |
-| [gopass_1.17.3_linux_armv7.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_linux_armv7.rpm) | 7.5 MiB | `native/linux/arm` |
-| [gopass_1.17.3_SHA256SUMS](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_SHA256SUMS) | 4.2 KiB | `other` |
-| [gopass_1.17.3_SHA256SUMS.sig](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_SHA256SUMS.sig) | 659 B | `other` |
-| [gopass_1.17.3_SHA256SUMS.sigstore.json](https://github.com/gopasspw/gopass/releases/download/v1.17.3/gopass_1.17.3_SHA256SUMS.sigstore.json) | 9.9 KiB | `other` |
+| [gopass-1.17.4-darwin-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-darwin-amd64.tar.gz) | 7.6 MiB | `native/darwin/x64` |
+| [gopass-1.17.4-darwin-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-darwin-amd64.tar.gz.sbom.json) | 110.8 KiB | `native/darwin/x64` |
+| [gopass-1.17.4-darwin-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-darwin-arm64.tar.gz) | 7.0 MiB | `native/darwin/arm64` |
+| [gopass-1.17.4-darwin-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-darwin-arm64.tar.gz.sbom.json) | 110.8 KiB | `native/darwin/arm64` |
+| [gopass-1.17.4-freebsd-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-amd64.tar.gz) | 7.9 MiB | `native/linux/x64` |
+| [gopass-1.17.4-freebsd-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-amd64.tar.gz.sbom.json) | 117.2 KiB | `other` |
+| [gopass-1.17.4-freebsd-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-arm64.tar.gz) | 7.2 MiB | `native/linux/arm64` |
+| [gopass-1.17.4-freebsd-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-arm64.tar.gz.sbom.json) | 117.2 KiB | `other` |
+| [gopass-1.17.4-freebsd-armv6.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-armv6.tar.gz) | 7.5 MiB | `native/linux/arm` |
+| [gopass-1.17.4-freebsd-armv6.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-armv6.tar.gz.sbom.json) | 117.2 KiB | `other` |
+| [gopass-1.17.4-freebsd-armv7.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-armv7.tar.gz) | 7.5 MiB | `native/linux/arm` |
+| [gopass-1.17.4-freebsd-armv7.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-armv7.tar.gz.sbom.json) | 117.2 KiB | `other` |
+| [gopass-1.17.4-linux-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-amd64.tar.gz) | 8.2 MiB | `native/linux/x64` |
+| [gopass-1.17.4-linux-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-amd64.tar.gz.sbom.json) | 118.5 KiB | `native/linux/x64` |
+| [gopass-1.17.4-linux-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-arm64.tar.gz) | 7.4 MiB | `native/linux/arm64` |
+| [gopass-1.17.4-linux-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-arm64.tar.gz.sbom.json) | 118.5 KiB | `native/linux/arm64` |
+| [gopass-1.17.4-linux-armv6.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-armv6.tar.gz) | 7.8 MiB | `native/linux/arm` |
+| [gopass-1.17.4-linux-armv6.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-armv6.tar.gz.sbom.json) | 118.5 KiB | `native/linux/arm` |
+| [gopass-1.17.4-linux-armv7.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-armv7.tar.gz) | 7.8 MiB | `native/linux/arm` |
+| [gopass-1.17.4-linux-armv7.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-armv7.tar.gz.sbom.json) | 118.5 KiB | `native/linux/arm` |
+| [gopass-1.17.4-openbsd-amd64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-amd64.tar.gz) | 7.5 MiB | `native/linux/x64` |
+| [gopass-1.17.4-openbsd-amd64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-amd64.tar.gz.sbom.json) | 109.3 KiB | `other` |
+| [gopass-1.17.4-openbsd-arm64.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-arm64.tar.gz) | 6.7 MiB | `native/linux/arm64` |
+| [gopass-1.17.4-openbsd-arm64.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-arm64.tar.gz.sbom.json) | 109.3 KiB | `other` |
+| [gopass-1.17.4-openbsd-armv6.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-armv6.tar.gz) | 7.1 MiB | `native/linux/arm` |
+| [gopass-1.17.4-openbsd-armv6.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-armv6.tar.gz.sbom.json) | 109.3 KiB | `other` |
+| [gopass-1.17.4-openbsd-armv7.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-armv7.tar.gz) | 7.1 MiB | `native/linux/arm` |
+| [gopass-1.17.4-openbsd-armv7.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-openbsd-armv7.tar.gz.sbom.json) | 109.3 KiB | `other` |
+| [gopass-1.17.4-windows-amd64.zip](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-windows-amd64.zip) | 8.1 MiB | `native/win/x64` |
+| [gopass-1.17.4-windows-amd64.zip.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-windows-amd64.zip.sbom.json) | 118.4 KiB | `native/win/x64` |
+| [gopass-1.17.4-windows-arm64.zip](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-windows-arm64.zip) | 7.2 MiB | `native/win/arm64` |
+| [gopass-1.17.4-windows-arm64.zip.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-windows-arm64.zip.sbom.json) | 118.4 KiB | `native/win/arm64` |
+| [gopass-1.17.4.tar.gz](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4.tar.gz) | 2.5 MiB | `native/unknown` |
+| [gopass-1.17.4.tar.gz.sbom.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4.tar.gz.sbom.json) | 249.6 KiB | `other` |
+| [gopass_1.17.4_linux_amd64.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_amd64.deb) | 8.2 MiB | `native/linux/x64` |
+| [gopass_1.17.4_linux_amd64.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_amd64.rpm) | 8.2 MiB | `native/linux/x64` |
+| [gopass_1.17.4_linux_arm64.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_arm64.deb) | 7.4 MiB | `native/linux/arm64` |
+| [gopass_1.17.4_linux_arm64.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_arm64.rpm) | 7.4 MiB | `native/linux/arm64` |
+| [gopass_1.17.4_linux_armv6.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_armv6.deb) | 7.8 MiB | `native/linux/arm` |
+| [gopass_1.17.4_linux_armv6.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_armv6.rpm) | 7.8 MiB | `native/linux/arm` |
+| [gopass_1.17.4_linux_armv7.deb](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_armv7.deb) | 7.8 MiB | `native/linux/arm` |
+| [gopass_1.17.4_linux_armv7.rpm](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_armv7.rpm) | 7.8 MiB | `native/linux/arm` |
+| [gopass_1.17.4_SHA256SUMS](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_SHA256SUMS) | 4.2 KiB | `other` |
+| [gopass_1.17.4_SHA256SUMS.sig](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_SHA256SUMS.sig) | 659 B | `other` |
+| [gopass_1.17.4_SHA256SUMS.sigstore.json](https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_SHA256SUMS.sigstore.json) | 10.0 KiB | `other` |
 
 ## Improve this data
 
@@ -124,4 +123,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T06:03:12Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T05:53:25Z._
