@@ -14,11 +14,11 @@ x install gopass
 
 ## Code insight
 
-Total: **69,069** lines of code across **742** files in the top 5 languages.
+Total: **69,366** lines of code across **743** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 68,369 | 6,658 | 14,245 | 642 |
+| Go | 68,666 | 6,705 | 14,295 | 643 |
 | Svg | 494 | 1 | 0 | 1 |
 | Makefile | 163 | 1 | 30 | 1 |
 | Dockerfile | 43 | 5 | 20 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.4` (2026-10-10)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-10-13
 - **Assets in release**: 45
 
 ## Popularity
 
-- **Stars**: 7,256 · **Forks**: 565 · **Open issues**: 1,332 · **Contributors**: 246
+- **Stars**: 7,255 · **Forks**: 565 · **Open issues**: 1,332 · **Contributors**: 246
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 2060 · **Open PRs**: 6 · **Closed issues**: 1254 · **Open issues**: 78 · **Commits**: 2387
+- **Releases**: 106 · **Merged PRs**: 2061 · **Open PRs**: 5 · **Closed issues**: 1255 · **Open issues**: 77 · **Commits**: 2388
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 2 | 41 | 5 | 8 | 0 | 40 |
-| last60d | 2026-08-14 | 7 | 102 | 5 | 13 | 4 | 117 |
-| 90d | 2026-07-15 | 7 | 127 | 5 | 23 | 4 | 139 |
-| last180d | 2026-04-16 | 9 | 189 | 6 | 46 | 12 | 199 |
-| 360d | 2025-10-18 | 11 | 258 | 6 | 59 | 16 | 297 |
-| last720d | 2024-10-23 | 15 | 474 | 6 | 111 | 23 | 514 |
+| 30d | 2026-09-14 | 2 | 42 | 4 | 8 | 0 | 41 |
+| last60d | 2026-08-15 | 7 | 103 | 4 | 13 | 4 | 118 |
+| 90d | 2026-07-16 | 7 | 127 | 4 | 23 | 4 | 140 |
+| last180d | 2026-04-17 | 9 | 190 | 5 | 47 | 11 | 200 |
+| 360d | 2025-10-19 | 11 | 259 | 5 | 60 | 15 | 298 |
+| last720d | 2024-10-24 | 15 | 473 | 5 | 112 | 22 | 515 |
 
 ## Release assets
 
@@ -123,4 +123,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:07:24Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:03:46Z._
