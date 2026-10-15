@@ -14,19 +14,19 @@ x install gopass
 
 ## Code insight
 
-Total: **69,366** lines of code across **743** files in the top 5 languages.
+Total: **72,343** lines of code across **759** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 68,666 | 6,705 | 14,295 | 643 |
+| Go | 71,643 | 7,306 | 15,011 | 657 |
 | Svg | 494 | 1 | 0 | 1 |
 | Makefile | 163 | 1 | 30 | 1 |
 | Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 7,572 | 2,768 | 97 |
+| Markdown | 0 | 8,320 | 2,955 | 99 |
 
 ## OpenSSF Scorecard
 
-Overall score: **8.9 / 10**
+Overall score: **8.8 / 10**
 
 Lowest-scoring checks:
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.4` (2026-10-10)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-10-14
 - **Assets in release**: 45
 
 ## Popularity
 
-- **Stars**: 7,255 · **Forks**: 565 · **Open issues**: 1,332 · **Contributors**: 246
+- **Stars**: 7,257 · **Forks**: 565 · **Open issues**: 1,332 · **Contributors**: 246
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 2061 · **Open PRs**: 5 · **Closed issues**: 1255 · **Open issues**: 77 · **Commits**: 2388
+- **Releases**: 106 · **Merged PRs**: 2063 · **Open PRs**: 9 · **Closed issues**: 1257 · **Open issues**: 75 · **Commits**: 2390
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 2 | 42 | 4 | 8 | 0 | 41 |
-| last60d | 2026-08-15 | 7 | 103 | 4 | 13 | 4 | 118 |
-| 90d | 2026-07-16 | 7 | 127 | 4 | 23 | 4 | 140 |
-| last180d | 2026-04-17 | 9 | 190 | 5 | 47 | 11 | 200 |
-| 360d | 2025-10-19 | 11 | 259 | 5 | 60 | 15 | 298 |
-| last720d | 2024-10-24 | 15 | 473 | 5 | 112 | 22 | 515 |
+| 30d | 2026-09-15 | 2 | 42 | 8 | 8 | 0 | 43 |
+| last60d | 2026-08-16 | 7 | 105 | 8 | 13 | 4 | 120 |
+| 90d | 2026-07-17 | 7 | 129 | 8 | 23 | 4 | 142 |
+| last180d | 2026-04-18 | 9 | 192 | 9 | 48 | 10 | 202 |
+| 360d | 2025-10-20 | 11 | 261 | 9 | 62 | 13 | 300 |
+| last720d | 2024-10-25 | 15 | 475 | 9 | 114 | 20 | 517 |
 
 ## Release assets
 
@@ -123,4 +123,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:03:46Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:48:59Z._
