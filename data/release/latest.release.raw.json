@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7961732,
       "digest": "sha256:c02174953a396c4c457f238505f2efa1cb5eee9439087654d7d3d7e72e978495",
-      "download_count": 55,
+      "download_count": 68,
       "created_at": "2026-10-10T09:00:56Z",
       "updated_at": "2026-10-10T09:00:56Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-darwin-amd64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 7333932,
       "digest": "sha256:b052f36631e619fa9391edeee581d1f3937c4c41d432aa4ba673b53401800c0f",
-      "download_count": 109,
+      "download_count": 127,
       "created_at": "2026-10-10T09:00:57Z",
       "updated_at": "2026-10-10T09:00:57Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8321649,
       "digest": "sha256:4b12fcccb2aa2456beb30abc93c3317e6b34b4df4f8cd995e5ad8fd819119c2e",
-      "download_count": 8,
+      "download_count": 9,
       "created_at": "2026-10-10T09:00:57Z",
       "updated_at": "2026-10-10T09:00:57Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-freebsd-amd64.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8641539,
       "digest": "sha256:fe63584ba2275409c54d060d7f601de24d03ca980b11e617cd30cd9c4814597a",
-      "download_count": 502,
+      "download_count": 564,
       "created_at": "2026-10-10T09:00:56Z",
       "updated_at": "2026-10-10T09:00:56Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-amd64.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 121338,
       "digest": "sha256:a5741a608d933e808fe600f2bf40b7287f579c87b974f4c7e78094a0fa59b2cd",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-10-10T09:01:02Z",
       "updated_at": "2026-10-10T09:01:02Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-amd64.tar.gz.sbom.json"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 7792310,
       "digest": "sha256:5534508600159b8a7c3909e9ea094a3ed3887b0a5de182bb3f223be0221c9026",
-      "download_count": 63,
+      "download_count": 73,
       "created_at": "2026-10-10T09:00:54Z",
       "updated_at": "2026-10-10T09:00:55Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-linux-arm64.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 8490520,
       "digest": "sha256:8965ee29f9ede2acfde2de6f5564ecc98de9965a612b675acb453c784d847eaa",
-      "download_count": 183,
+      "download_count": 201,
       "created_at": "2026-10-10T09:00:56Z",
       "updated_at": "2026-10-10T09:00:56Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4-windows-amd64.zip"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 2645220,
       "digest": "sha256:de75d2a43cd7ae54cdeac2e3074456ab2a79901c607a24166804878269415989",
-      "download_count": 84,
+      "download_count": 87,
       "created_at": "2026-10-10T09:00:59Z",
       "updated_at": "2026-10-10T09:00:59Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4.tar.gz"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 8647566,
       "digest": "sha256:4bf1b814e6e0b35f4fac0428aa8e76bb86eaf1763ea2f180aeb5aa3464ba7dc8",
-      "download_count": 64,
+      "download_count": 67,
       "created_at": "2026-10-10T09:00:59Z",
       "updated_at": "2026-10-10T09:01:00Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_amd64.deb"
@@ -1363,7 +1363,7 @@
       "state": "uploaded",
       "size": 7792142,
       "digest": "sha256:ae11f19e4941ab1be94e4987ebf3429280efa7ba80cfae5558499c3bec7e44ee",
-      "download_count": 7,
+      "download_count": 8,
       "created_at": "2026-10-10T09:00:59Z",
       "updated_at": "2026-10-10T09:01:01Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_arm64.deb"
@@ -1435,7 +1435,7 @@
       "state": "uploaded",
       "size": 8194082,
       "digest": "sha256:c782a991e2145a07ef0df7c70102064f8bb6ef95f69722703afc3de50b86d45c",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-10-10T09:00:59Z",
       "updated_at": "2026-10-10T09:01:00Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_linux_armv6.deb"
@@ -1579,7 +1579,7 @@
       "state": "uploaded",
       "size": 4312,
       "digest": "sha256:f61fdc94991ab37be573a4d216744ab2770b48f181753e73ad4bd81ca0323d21",
-      "download_count": 366,
+      "download_count": 408,
       "created_at": "2026-10-10T09:01:04Z",
       "updated_at": "2026-10-10T09:01:04Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_SHA256SUMS"
@@ -1615,7 +1615,7 @@
       "state": "uploaded",
       "size": 659,
       "digest": "sha256:e04a1bb3e1a6ed8a962b8fa1765a13ddae593f8618e35c7691ebc4c073bf94c2",
-      "download_count": 19,
+      "download_count": 21,
       "created_at": "2026-10-10T09:01:04Z",
       "updated_at": "2026-10-10T09:01:04Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_SHA256SUMS.sig"
@@ -1651,7 +1651,7 @@
       "state": "uploaded",
       "size": 10287,
       "digest": "sha256:bd0cdba71c79b136a69f4ecbaa74e239dc44f99d41154181807a59a74e815be9",
-      "download_count": 244,
+      "download_count": 281,
       "created_at": "2026-10-10T09:01:04Z",
       "updated_at": "2026-10-10T09:01:04Z",
       "browser_download_url": "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass_1.17.4_SHA256SUMS.sigstore.json"
