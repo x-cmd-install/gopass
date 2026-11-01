@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.4` (2026-10-10)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-10-31
 - **Assets in release**: 45
 
 ## Popularity
 
-- **Stars**: 7,299 · **Forks**: 568 · **Open issues**: 1,337 · **Contributors**: 248
+- **Stars**: 7,300 · **Forks**: 568 · **Open issues**: 1,337 · **Contributors**: 248
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 2074 · **Open PRs**: 6 · **Closed issues**: 1260 · **Open issues**: 77 · **Commits**: 2401
+- **Releases**: 106 · **Merged PRs**: 2075 · **Open PRs**: 6 · **Closed issues**: 1261 · **Open issues**: 76 · **Commits**: 2402
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 31 | 2 | 4 | 3 | 42 |
-| last60d | 2026-09-01 | 5 | 68 | 5 | 14 | 5 | 80 |
-| 90d | 2026-08-02 | 7 | 121 | 5 | 19 | 7 | 153 |
-| last180d | 2026-05-04 | 9 | 182 | 6 | 40 | 9 | 195 |
-| 360d | 2025-11-05 | 11 | 267 | 6 | 64 | 16 | 311 |
-| last720d | 2024-11-10 | 15 | 474 | 6 | 115 | 22 | 514 |
+| 30d | 2026-10-02 | 1 | 32 | 2 | 5 | 2 | 23 |
+| last60d | 2026-09-02 | 5 | 69 | 5 | 15 | 3 | 78 |
+| 90d | 2026-08-03 | 7 | 122 | 5 | 19 | 6 | 150 |
+| last180d | 2026-05-05 | 9 | 183 | 6 | 41 | 8 | 195 |
+| 360d | 2025-11-06 | 11 | 268 | 6 | 64 | 15 | 303 |
+| last720d | 2024-11-11 | 15 | 475 | 6 | 116 | 21 | 515 |
 
 ## Release assets
 
@@ -122,4 +122,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:45:39Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:13:40Z._
