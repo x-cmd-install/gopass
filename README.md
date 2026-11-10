@@ -22,11 +22,11 @@ Total: **72,647** lines of code across **761** files in the top 5 languages.
 | Svg | 494 | 1 | 0 | 1 |
 | Makefile | 163 | 1 | 30 | 1 |
 | Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 8,322 | 2,957 | 99 |
+| Markdown | 0 | 8,320 | 2,955 | 99 |
 
 ## OpenSSF Scorecard
 
-Overall score: **9.2 / 10**
+Overall score: **9.1 / 10**
 
 Lowest-scoring checks:
 
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.4` (2026-10-10)
-- **Last commit**: 2026-11-05
+- **Last commit**: 2026-11-09
 - **Assets in release**: 45
 
 ## Popularity
 
-- **Stars**: 7,315 · **Forks**: 568 · **Open issues**: 1,337 · **Contributors**: 248
+- **Stars**: 7,316 · **Forks**: 569 · **Open issues**: 1,337 · **Contributors**: 248
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 2080 · **Open PRs**: 12 · **Closed issues**: 1262 · **Open issues**: 75 · **Commits**: 2407
+- **Releases**: 106 · **Merged PRs**: 2082 · **Open PRs**: 11 · **Closed issues**: 1263 · **Open issues**: 74 · **Commits**: 2409
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 1 | 21 | 11 | 4 | 2 | 13 |
-| last60d | 2026-09-10 | 4 | 64 | 11 | 12 | 2 | 62 |
-| 90d | 2026-08-11 | 7 | 125 | 11 | 16 | 6 | 138 |
-| last180d | 2026-05-13 | 9 | 188 | 12 | 40 | 7 | 190 |
-| 360d | 2025-11-14 | 10 | 269 | 12 | 63 | 15 | 307 |
-| last720d | 2024-11-19 | 15 | 480 | 12 | 114 | 21 | 520 |
+| 30d | 2026-10-11 | 0 | 21 | 10 | 4 | 1 | 15 |
+| last60d | 2026-09-11 | 2 | 64 | 10 | 12 | 1 | 64 |
+| 90d | 2026-08-12 | 7 | 126 | 10 | 17 | 5 | 140 |
+| last180d | 2026-05-14 | 9 | 190 | 11 | 41 | 6 | 192 |
+| 360d | 2025-11-15 | 10 | 271 | 11 | 64 | 14 | 309 |
+| last720d | 2024-11-20 | 15 | 482 | 11 | 115 | 20 | 522 |
 
 ## Release assets
 
@@ -122,4 +122,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T06:34:31Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:32:29Z._
