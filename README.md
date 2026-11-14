@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,321 · **Forks**: 569 · **Open issues**: 1,337 · **Contributors**: 248
+- **Stars**: 7,322 · **Forks**: 569 · **Open issues**: 1,337 · **Contributors**: 248
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 14 | 10 | 4 | 2 | 15 |
-| last60d | 2026-09-14 | 2 | 63 | 10 | 12 | 2 | 64 |
-| 90d | 2026-08-15 | 7 | 124 | 10 | 17 | 6 | 140 |
-| last180d | 2026-05-17 | 9 | 183 | 11 | 41 | 7 | 192 |
-| 360d | 2025-11-18 | 10 | 271 | 11 | 65 | 14 | 309 |
-| last720d | 2024-11-23 | 15 | 480 | 11 | 117 | 19 | 522 |
+| 30d | 2026-10-15 | 0 | 13 | 10 | 3 | 2 | 15 |
+| last60d | 2026-09-15 | 2 | 61 | 10 | 12 | 2 | 64 |
+| 90d | 2026-08-16 | 7 | 124 | 10 | 17 | 6 | 140 |
+| last180d | 2026-05-18 | 8 | 183 | 11 | 41 | 7 | 192 |
+| 360d | 2025-11-19 | 10 | 271 | 11 | 65 | 14 | 309 |
+| last720d | 2024-11-24 | 15 | 477 | 11 | 117 | 19 | 521 |
 
 ## Release assets
 
@@ -122,4 +122,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:52:35Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:37:07Z._
