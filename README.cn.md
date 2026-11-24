@@ -14,15 +14,15 @@ x install gopass
 
 ## 代码洞察
 
-合计: **75,180** 行代码（覆盖前 5 种语言、共 **764** 个文件）。
+合计: **84,592** 行代码（覆盖前 5 种语言、共 **795** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 74,480 | 7,508 | 15,566 | 662 |
+| Go | 83,892 | 8,933 | 17,670 | 692 |
 | Svg | 494 | 1 | 0 | 1 |
 | Makefile | 163 | 1 | 30 | 1 |
 | Dockerfile | 43 | 5 | 20 | 1 |
-| Markdown | 0 | 8,357 | 2,963 | 99 |
+| Markdown | 0 | 8,585 | 3,027 | 100 |
 
 ## OpenSSF Scorecard 评分
 
@@ -30,7 +30,7 @@ x install gopass
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 5/21 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
@@ -47,22 +47,22 @@ x install gopass
 
 ## 流行度
 
-- **Star**: 7,333 · **Fork**: 572 · **开放 issue**: 1,341 · **贡献者**: 250
+- **Star**: 7,333 · **Fork**: 574 · **开放 issue**: 1,341 · **贡献者**: 252
 
 ## 累计统计
 
-- **发布数**: 107 · **已合并 PR**: 2107 · **开放 PR**: 5 · **已关闭 issue**: 1283 · **开放 issue**: 58 · **提交数**: 2435
+- **发布数**: 107 · **已合并 PR**: 2118 · **开放 PR**: 2 · **已关闭 issue**: 1301 · **开放 issue**: 40 · **提交数**: 2446
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 34 | 4 | 4 | 2 | 0 |
-| last60d | 2026-09-24 | 2 | 80 | 4 | 14 | 2 | 0 |
-| 90d | 2026-08-25 | 7 | 110 | 4 | 20 | 4 | 0 |
-| last180d | 2026-05-27 | 9 | 200 | 5 | 40 | 7 | 0 |
-| 360d | 2025-11-28 | 11 | 295 | 5 | 69 | 13 | 0 |
-| last720d | 2024-12-03 | 15 | 494 | 5 | 121 | 18 | 535 |
+| 30d | 2026-10-25 | 1 | 45 | 2 | 6 | 0 | 45 |
+| last60d | 2026-09-25 | 2 | 91 | 2 | 15 | 0 | 92 |
+| 90d | 2026-08-26 | 7 | 121 | 2 | 23 | 1 | 127 |
+| last180d | 2026-05-28 | 9 | 211 | 2 | 45 | 2 | 220 |
+| 360d | 2025-11-29 | 11 | 306 | 2 | 75 | 7 | 345 |
+| last720d | 2024-12-04 | 15 | 505 | 2 | 128 | 11 | 546 |
 
 ## Release 资产
 
@@ -124,4 +124,4 @@ gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T08:16:12Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:46:12Z._
