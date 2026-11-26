@@ -26,11 +26,11 @@ Total: **84,659** lines of code across **795** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.9 / 10**
+Overall score: **9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 5/21 approved changesets -- score normalized to 2
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.5` (2026-11-22)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-25
 - **Assets in release**: 46
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 107 · **Merged PRs**: 2119 · **Open PRs**: 2 · **Closed issues**: 1301 · **Open issues**: 40 · **Commits**: 2447
+- **Releases**: 107 · **Merged PRs**: 2120 · **Open PRs**: 1 · **Closed issues**: 1301 · **Open issues**: 40 · **Commits**: 2448
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 46 | 2 | 6 | 0 | 46 |
-| last60d | 2026-09-26 | 2 | 92 | 2 | 15 | 0 | 93 |
-| 90d | 2026-08-27 | 7 | 119 | 2 | 23 | 1 | 128 |
-| last180d | 2026-05-29 | 9 | 212 | 2 | 45 | 2 | 221 |
-| 360d | 2025-11-30 | 11 | 307 | 2 | 75 | 6 | 346 |
-| last720d | 2024-12-05 | 15 | 506 | 2 | 128 | 11 | 547 |
+| 30d | 2026-10-27 | 1 | 47 | 1 | 6 | 0 | 0 |
+| last60d | 2026-09-27 | 2 | 93 | 1 | 15 | 0 | 0 |
+| 90d | 2026-08-28 | 7 | 120 | 1 | 23 | 1 | 0 |
+| last180d | 2026-05-30 | 9 | 212 | 1 | 45 | 2 | 0 |
+| 360d | 2025-12-01 | 11 | 308 | 1 | 75 | 6 | 0 |
+| last720d | 2024-12-06 | 15 | 507 | 1 | 128 | 11 | 548 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for gopass lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:41:36Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:23:11Z._

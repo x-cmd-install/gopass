@@ -26,11 +26,11 @@ x install gopass
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.9 / 10**
+总评分: **9 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 5/21 approved changesets -- score normalized to 2
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
@@ -42,7 +42,7 @@ x install gopass
 ## 发布
 
 - **最新版本**: `v1.17.5` (2026-11-22)
-- **最近提交**: 2026-11-24
+- **最近提交**: 2026-11-25
 - **Release 含资产**: 46 个
 
 ## 流行度
@@ -51,18 +51,18 @@ x install gopass
 
 ## 累计统计
 
-- **发布数**: 107 · **已合并 PR**: 2119 · **开放 PR**: 2 · **已关闭 issue**: 1301 · **开放 issue**: 40 · **提交数**: 2447
+- **发布数**: 107 · **已合并 PR**: 2120 · **开放 PR**: 1 · **已关闭 issue**: 1301 · **开放 issue**: 40 · **提交数**: 2448
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 46 | 2 | 6 | 0 | 46 |
-| last60d | 2026-09-26 | 2 | 92 | 2 | 15 | 0 | 93 |
-| 90d | 2026-08-27 | 7 | 119 | 2 | 23 | 1 | 128 |
-| last180d | 2026-05-29 | 9 | 212 | 2 | 45 | 2 | 221 |
-| 360d | 2025-11-30 | 11 | 307 | 2 | 75 | 6 | 346 |
-| last720d | 2024-12-05 | 15 | 506 | 2 | 128 | 11 | 547 |
+| 30d | 2026-10-27 | 1 | 47 | 1 | 6 | 0 | 0 |
+| last60d | 2026-09-27 | 2 | 93 | 1 | 15 | 0 | 0 |
+| 90d | 2026-08-28 | 7 | 120 | 1 | 23 | 1 | 0 |
+| last180d | 2026-05-30 | 9 | 212 | 1 | 45 | 2 | 0 |
+| 360d | 2025-12-01 | 11 | 308 | 1 | 75 | 6 | 0 |
+| last720d | 2024-12-06 | 15 | 507 | 1 | 128 | 11 | 548 |
 
 ## Release 资产
 
@@ -124,4 +124,4 @@ gopass 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T08:41:37Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T08:23:12Z._
